@@ -1,10 +1,19 @@
 {% extends "base.html" %} {% block title %}{{ article.title }}{% endblock %} {%
 block content %}
-<div class="row article">
+<div class="row shadow mb-5 bg-white article">
   <div class="col-md-12">
-    <h1>{{ article.title }}</h1>
-    <label>Posted on <strong>{{ article.date }}</strong></label>
-    {{ article.content }}
+    <h1 class="text-center">{{ article.title }}</h1>
+    <label>{{ article.locale_date }}</label> | 
+    <label>{{ article.category }}</label> |
+    <label>Tags: 
+      {% for tag in article.tags %}
+        {{tag}}, 
+      {% endfor %}
+    </label>
+    <div class="article-content">
+      {{ article.content }}
+    </div>
+    
   </div>
 </div>
 {% endblock %}

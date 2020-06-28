@@ -58,7 +58,8 @@ footer p {
 .article {
     background-color: #fff;
     margin: 0 auto;
-    padding: 50px;      
+    padding: 100px;  
+    width: 80%;    
 }
 
 .article img {
@@ -80,4 +81,8 @@ footer p {
 
 .card h1 a mark {
     color: gray;
+}
+
+.article-content {
+    margin-top: 50px;
 }
