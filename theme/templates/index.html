@@ -1,0 +1,61 @@
+{% extends "base.html" %} 
+
+{% block title %}{{ SITENAME }}{% endblock %} 
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    {% for article in articles_page.object_list if article.category != "activity" %}        
+    <div class="col-md-4">
+      <div class="card mb-4 shadow p-3 bg-white rounded">       
+        <img src="{{ article.cover }}" class="card-img-top" alt="{{ article.title }}" height="225" width="100%">
+        
+        <div class="card-body">
+          <h1><a href="/{{ article.slug }}.html"><mark>{{article.title}}</mark></a></h1>
+          <p class="card-text">            
+            {{ article.summary|striptags }}
+          </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <a href="/{{ article.slug }}.html" class="btn btn-sm btn-outline-primary">
+                Read Me 🤓
+              </a>             
+            </div>
+            <small class="text-muted">{{ article.locale_date }}</small>
+          </div>
+        </div>
+
+      </div>
+    </div>    
+    {% else %}
+    No posts yet!
+    {% endfor %}    
+  </div>
+</div>
+
+<div class="">
+  <ul class="pagination justify-content-center">    
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}"><<</a></li>
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}"><</a></li>
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}">></a></li>
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_paginator.num_pages }}/">>></a></li>    
+  </ul>
+</div>
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+  <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+  {% for article in articles if article.category == "activity" %}
+  <div class="media text-muted pt-3">
+    <img src="{{article.cover}}" alt="" class="mr-2 rounded" width="50px">
+    <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray"> 
+      <strong class="d-block text-gray-dark">{{article.date}}</strong>     
+      {{ article.summary|striptags }}
+    </p>
+  </div>
+  {%endfor %}      
+  <small class="d-block text-right mt-3">
+    <a href="#">All updates</a>
+  </small>
+</div>
+
+{% endblock %}
