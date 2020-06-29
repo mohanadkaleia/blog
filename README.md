@@ -10,7 +10,7 @@ Theb blog uses [**Pelican**](https://github.com/getpelican/pelican), a static ge
 2. Activity: articles under `Activity` directory are listed under `Recent update` Section
 3. tbd
 
-## Create new article
+## Workflow
 
 Pelican is a static generator library that generates static pages. It takes `markdown` as an input and generates `html` as an output. 
 
@@ -22,17 +22,20 @@ This will keep listning to any change in the conent directory and generates outp
 
 A Python http server can be used to serve the generated pages, first change the directory to the `output` directory. Then run the following command: 
 
-`python -m http.server  ` 
+`python -m http.server` 
 
 Oh.. forgot that you will need to install requirements: 
 
 `pip install requirements.txt` 
 
+For syntax highlighting I used [`Pygments`](https://pygments.org/). To generate the syntax highlighting CSS file, you can run the following commands: 
+`pygmentize -S solarized-dark -f html -a .highlight > pygment.css` 
+`mv pygment.css theme/static/css`
 
 
 ## Deployment
 
-Deployment into aws S3
+Deployment into aws S3.. [WIP]
 
 
 ## License 

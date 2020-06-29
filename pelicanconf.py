@@ -9,7 +9,7 @@ SITEURL = 'http://localhost:8000'
 PATH = 'content'
 
 TIMEZONE = 'US/Pacific'
-
+DEFAULT_DATE_FORMAT = ('%Y-%m-%d')
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing

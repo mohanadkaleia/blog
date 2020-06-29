@@ -7,7 +7,7 @@ Slug: rebuild-scalable-iot-system
 Status: published
 Cover: https://miro.medium.com/max/3416/0*1-T-XOXnvBSd8ubK.png
 
-Note: the article has been published originally on to my Medium account: <https://medium.com/@ms.kaleia/re-build-scalable-iot-system-91b7eac71935>
+> Note: the article has been published originally on to my Medium account: <https://medium.com/@ms.kaleia/re-build-scalable-iot-system-91b7eac71935>
 
 Two years ago I worked on an Internet of Things system that does reading weather information from weather stations and submit the readings into a server to record these readings into a database and visualize them into a UI. (I got to work only on the backend side of it)
 
@@ -18,9 +18,7 @@ The project was pretty easy. we have 15 weather stations, every station is attac
 
 The rest of this post I will explain the proposed architecture along with the code used in the demo implementation.
 
-::: {.wp-block-image}
 ![](https://miro.medium.com/max/998/0*iLOUZySYlHx5izIF.gif)
-:::
 
 ------------------------------------------------------------------------
 
@@ -66,9 +64,7 @@ Datastore {#0cf4}
 
 To store the data it is good to use a reliable engine like Postgresql or Mysql. For me, since the purpose of this demo was not for production I used a document-based database called [tinydb](https://tinydb.readthedocs.io/en/latest/index.html) (it works!) I created two tables one for the weather and the other one for the users. Basically, just dump the weather messages coming from the client into the weather table in its JSON format. Now, let's move to the implementation part:  
 
-::: {.wp-block-image}
 ![](https://miro.medium.com/max/960/0*I2zK9gYZTJDrPdae.gif)
-:::
 
 ------------------------------------------------------------------------
 
@@ -103,8 +99,7 @@ I structured the project in a very simple way:
 
 Client {#5304}
 ======
-
-``` {.EnlighterJSRAW enlighter-language="generic" enlighter-theme="" enlighter-highlight="" enlighter-linenumbers="" enlighter-lineoffset="" enlighter-title="" enlighter-group=""}
+```
 import random
 import pika
 import sys
@@ -237,9 +232,8 @@ Cool.. we reached the server-side, it is simpler than the client-side I think :)
 
 It has two parts as we saw before, the message queue and the auth app. We will start with the web socket part.
 
-``` {.EnlighterJSRAW enlighter-language="generic" enlighter-theme="" enlighter-highlight="" enlighter-linenumbers="" enlighter-lineoffset="" enlighter-title="" enlighter-group=""}
+```
 # server.py
-
 import pika
 import config
 import tinydb
@@ -279,7 +273,7 @@ channel.start_consuming()
 
 The other part is the web auth. For authentication, we used JWT which the server creates the token and returns it back in the response.
 
-``` {.EnlighterJSRAW enlighter-language="generic" enlighter-theme="" enlighter-highlight="" enlighter-linenumbers="" enlighter-lineoffset="" enlighter-title="" enlighter-group=""}
+``` 
 # app.py
 
 import user as user_service
