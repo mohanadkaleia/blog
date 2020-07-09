@@ -1,6 +1,7 @@
+beautifulsoup4==4.9.1
 blinker==1.4
+bs4==0.0.1
 docutils==0.16
-emojiextension==1.1
 feedgenerator==1.9
 Jinja2==2.11.1
 Markdown==3.1.1
@@ -12,4 +13,5 @@ python-magic==0.4.15
 pytz==2019.3
 s3cmd==2.0.2
 six==1.14.0
+soupsieve==2.0.1
 Unidecode==1.1.1

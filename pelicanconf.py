@@ -28,7 +28,7 @@ LINKS = (('twitter', 'https://twitter.com/m_kaleia'),
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
 
-DEFAULT_PAGINATION = 3
+DEFAULT_PAGINATION = 6
 DEFAULT_ORPHANS = 0
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

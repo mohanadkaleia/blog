@@ -112,3 +112,7 @@ blockquote p {
 .highlight pre {
     padding: 10px;
 }
+
+.navbar-nav a {
+    margin-right: 20px;
+}
