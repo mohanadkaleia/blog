@@ -1,0 +1,39 @@
+{% extends "base.html" %} 
+
+{% block title %}{{ SITENAME }} - Articles in the {{ category }} category{% endblock %}
+
+{%block content %}
+
+<div class="container shadow p-3 mb-5 bg-white rounded">
+    <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+    {% for article in articles %}
+    <div class="media text-muted pt-3">
+      <img src="{{ SITEURL }}/{{ article.cover }}" alt="" class="mr-2 rounded" width="50px">
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray"> 
+        <strong class="d-block text-gray-dark">Title</strong>     
+        {{ article.title }}
+      </p>
+
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray"> 
+        <strong class="d-block text-gray-dark">Auther</strong>     
+        {{ article.writer }}
+      </p>
+
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray"> 
+        <strong class="d-block text-gray-dark">Source</strong>     
+        <a href="{{ article.link }}">URL</a>
+      </p>
+
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray"> 
+        <strong class="d-block text-gray-dark">ISBN</strong>     
+        {{ article.isbn }}
+      </p>
+    </div>
+
+    {%endfor %}      
+    <small class="d-block text-right mt-3">
+      <a href="#">All updates</a>
+    </small>
+</div>
+{% endblock %}
+    
