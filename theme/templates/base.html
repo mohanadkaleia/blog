@@ -35,21 +35,17 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">                   
-
+                    
           <li class="nav-item">
-            <a class="nav-link" style="color: #6187C8" href="#">Who</a>
-          </li> 
-          
-          <li class="nav-item">
-            <a class="nav-link" style="color: #6187C8" href="http://localhost:8000/category/books">Books</a>
+            <a class="nav-link" style="color: #6187C8" href="{{ SITEURL }}/category/books">Books</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" style="color: #6187C8" href="#">Contact</a>
+            <a class="nav-link" style="color: #6187C8" href="{{ SITEURL }}/pages/contact">Contact</a>
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" style="color: #6187C8" href="https://calendly.com/m_kaleia/30min">Mentorship</a>
+            <a class="nav-link" style="color: #6187C8" href="{{ SITEURL }}/pages/mentorship">Mentorship</a>
           </li>
         </ul>
 
@@ -61,6 +57,10 @@
 
       </div>
     </nav>
+
+    <div class="alert alert-warning" role="alert">
+      Moving my personal website and blog into statically generated website using Pelican
+    </div>
 
     <!-- Content of the page -->
     <div class="container main-content">
