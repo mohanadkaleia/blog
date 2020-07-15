@@ -88,5 +88,7 @@ rsync_upload: publish
 s3_upload: publish
 	aws s3 sync $(OUTPUTDIR)/ s3://$(S3_BUCKET) --acl public-read --delete
 
+deploy:
+	aws s3 sync ./output s3://$(S3_BUCKET) --acl public-read
 
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload s3_upload

@@ -5,6 +5,7 @@ Category: Code, howto
 Tags: C++, cross-platform, mxe, qt, qt creator, windows
 Slug: cross-compilation-of-qtc-application-for-windows-under-linux
 Status: published
+Direction: rtl
 
 السلام عليكم ورحمة الله
 
@@ -12,8 +13,7 @@ Status: published
 
 في هذه المقالة سأشرح كيف نقوم ببناء مشروع QT based application على نظام Ubuntu بحيث يعمل على نظام Windows
 
-[الأدوات المستخدمة:]{style="color: #800080;"} {#الأدوات-المستخدمة dir="rtl"}
----------------------------------------------
+## الأدوات المستخدمة
 
 -   نظام التشغيل Ubuntu 16.04
 -   بيئة التطوير: Qt Creator 4.0.3 Based on Qt 5.7.0
@@ -22,39 +22,33 @@ Status: published
 -   نظام التشغيل الهدف Windows 10 64bit
 -   C++11
 
-[تنصيب أدارة الترجمة MXE]{style="color: #800080;"} {#تنصيب-أدارة-الترجمة-mxe dir="rtl"}
---------------------------------------------------
+## تنصيب أدارة الترجمة
 
 قبل أن نقوم بتنصيب الأداة لنأخذ لمحة عنها، MXE هي أداة تستعمل مترجم Mingw لترجمة المكتبات والبرامج على مختلف بيئات وأنظمة التشغيل. تعمل هذه الأداة على أنظمة تشغيل Unix.
 
 الآن لتنصيب الأداة لنقم بالبداية بتحميلها، ملاحظة أنا أفضل أن يتم تحميل الأداة مباشرة في مكان التنصيب، عندي أفضل تنصيبه ضمن مجلد /opt
 
-> cd /opt
->
-> ``` {dir="ltr"}
-> git clone https://github.com/mxe/mxe.git
-> ```
+```
+git clone https://github.com/mxe/mxe.git
+```
 
 الآن قبل أن نقوم بعملية التنصيب علينا أن نقوم بتنصيب جميع الاعتماديات اللازمة:
 
->     apt-get install   
->         autoconf automake autopoint bash bison bzip2 flex gettext  
->         git g++ gperf intltool libffi-dev libgdk-pixbuf2.0-dev   
->         libtool libltdl-dev libssl-dev libxml-parser-perl make   
->         openssl p7zip-full patch perl pkg-config python ruby scons   
->         sed unzip wget xz-utils
->
->     apt-get install g++-multilib libc6-dev-i386
->
->     apt-get install libtool-bin
+```
+apt-get install autoconf automake autopoint bash bison bzip2 flex gettext git g++ gperf intltool libffi-dev libgdk-pixbuf2.0-dev libtool libltdl-dev libssl-dev libxml-parser-perl make   
+openssl p7zip-full patch perl pkg-config python ruby scons sed unzip wget xz-utils
 
+apt-get install g++-multilib libc6-dev-i386
+
+apt-get install libtool-bin
+```
  
 
 الآن علينا أن نقوم ببناء الأداة كما يلي:
 
-> ``` {.prettyprint}
-> cd mxe && make MXE_TARGETS=x86_64-w64-mingw32.static qt5
-> ```
+```
+cd mxe && make MXE_TARGETS=x86_64-w64-mingw32.static qt5
+```
 
 الآن علينا تضمين مسار مجلد البرامج التنفيذية bin لمتحول البيئة PATH كما يلي:
 

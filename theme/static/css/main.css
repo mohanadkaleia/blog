@@ -73,6 +73,11 @@ footer p {
     text-align: justify;
 }
 
+.article-content ul li {
+    line-height: 200%;
+    text-align: justify;
+}
+
 .card {
     border-width: 0px;
 }
