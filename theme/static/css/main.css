@@ -84,6 +84,7 @@ footer p {
 
 .card h1 a {
     text-decoration: none;
+    line-height: 1.5;
 }
 
 .card h1 a mark {
