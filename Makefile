@@ -13,7 +13,7 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/var/www
 
-S3_BUCKET=kaleia.io
+S3_BUCKET=mohanad.kaleia.io
 
 
 DEBUG ?= 0

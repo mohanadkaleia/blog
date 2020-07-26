@@ -6,7 +6,7 @@
 <div class="container">
   <div class="row">
     {% for article in articles_page.object_list if article.category not in ("activity", "books") %}        
-    <div class="col-md-4">
+    <div class="col-md-4 col-sm-12 col-12">
       <div class="card mb-4 shadow p-3 bg-white rounded">       
         <img src="{{ article.cover }}" class="card-img-top" alt="{{ article.title }}" height="225" width="100%">
         
@@ -36,9 +36,9 @@
 <div class="">
   <ul class="pagination justify-content-center">    
     <li class="page-item"><a class="page-link" href="{{ SITEURL }}"><<</a></li>
-    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}"><</a></li>
-    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}">></a></li>
-    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_paginator.num_pages }}/">>></a></li>    
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html"><</a></li>
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html">></a></li>
+    <li class="page-item"><a class="page-link" href="{{ SITEURL }}/{{ page_name }}{{ articles_paginator.num_pages }}.html/">>></a></li>    
   </ul>
 </div>
 
