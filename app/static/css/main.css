@@ -1,0 +1,125 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+  
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+}
+@media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+}
+  
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+  
+.jumbotron h1 {
+    font-weight: 300;
+}
+  
+.jumbotron .container {
+    max-width: 40rem;
+}
+  
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+  
+footer p {
+    margin-bottom: 0.25rem;
+}
+
+.main-content {
+    margin-top: 100px;
+}
+  
+.nav-social a {
+    margin-right: 10px;    
+}
+
+.article {
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 100px;  
+    width: 80%;    
+}
+
+.article img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.article p {
+    line-height: 200%;
+    text-align: justify;
+}
+
+.article-content ul li {
+    line-height: 200%;
+    text-align: justify;
+}
+
+.card {
+    border-width: 0px;
+}
+
+.card h1 a {
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.card h1 a mark {
+    color: gray;
+}
+
+.article-content {
+    margin-top: 50px;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+.highlight pre {
+    padding: 10px;
+}
+
+.navbar-nav a {
+    margin-right: 20px;
+}
