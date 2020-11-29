@@ -1,18 +1,18 @@
-{% extends "base.html" %} {% block title %} {{meta['title']}} {% endblock %} {% block content %}
+{% extends "base.html" %} {% block title %} {{post['title']}} {% endblock %} {% block content %}
 <div class="row shadow mb-5 bg-white article">
   <div class="col-md-12">
-    <h1 class="text-center"> {{meta['title']}} </h1>
+    <h1 class="text-center"> {{post['title']}} </h1>
     
     <div class="article-meta text-center">
-      <label>Date:</label> {{meta['date']}} | 
-      <label>Category:</label> {{meta['category']}} |
-      <label>Tags: {{meta['tags']}}
+      <label>Date:</label> {{post['date']}} | 
+      <label>Category:</label> {{post['category']}} |
+      <label>Tags: {{post['tags']}}
         
       </label>
     </div>
     
     <div class="article-content" dir="">      
-      {{post}}
+      {{post.content}}
     </div>
     
   </div>

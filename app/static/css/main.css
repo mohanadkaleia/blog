@@ -123,3 +123,17 @@ blockquote p {
 .navbar-nav a {
     margin-right: 20px;
 }
+
+.header-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 5rem;
+    border-bottom: 3px solid #796eff;    
+    padding-bottom: 10px;
+    font-family: ubuntu, sans-serif;
+    margin-bottom: 30px;    
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: #796eff;
+}

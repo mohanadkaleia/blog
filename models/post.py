@@ -1,6 +1,7 @@
 import markdown
 import markdown.extensions.fenced_code
 import os
+import re
 
 from bs4 import BeautifulSoup
 from markdown.extensions.codehilite import CodeHiliteExtension
@@ -20,6 +21,7 @@ class ErrInvalidName(Exception):
 
 CONTENT_DIR = 'content/posts'
 
+
 def get(name=""):		
 	if not name:
 		raise ErrInvalidName('Please provide a post name')
@@ -36,11 +38,36 @@ def get(name=""):
 		
 	# Clean up the meta format
 	meta = {key: value[0] for key, value in md.Meta.items()}
+	summary = get_summary(html)
+	body = {'content': html, 'summary': summary}
 
-	return {
-		'meta': meta, 
-		'content': html,
-	}	
+	return {**meta, **body}
 
 def all():
-	return os.listdir(CONTENT_DIR)
+	posts = []
+	
+	files = os.listdir(CONTENT_DIR)
+
+	for file in files:
+		
+		if file[-3:] != '.md':
+			continue
+		
+		posts.append(get(file[:-3]))
+
+	return posts
+
+
+# This function is forked from here: https://github.com/MinchinWeb/minchin.pelican.plugins.summary
+def get_summary(content):
+	# Summary will take the first paragraph of the content
+	begin_marker, end_marker = '<p>', '</p>'
+	remove_markers = False
+	begin_summary = content.find(begin_marker)
+	end_summary = content.find(end_marker)
+
+	summary = content[begin_summary:end_summary]
+	summary = re.sub(r"<div.*>", "", summary)
+	summary = re.sub(r"</div>", "", summary)
+
+	return summary
