@@ -129,7 +129,7 @@ blockquote p {
     font-weight: 700;    
     border-bottom: 3px solid #796eff;    
     padding-bottom: 10px;
-    font-family: ubuntu, sans-serif;
+    font-family: 'Space Mono', monospace;
     margin-bottom: 30px;    
     display: inline-block;
     justify-content: center;

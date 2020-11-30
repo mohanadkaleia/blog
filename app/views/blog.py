@@ -11,7 +11,7 @@ app = Blueprint('blog', __name__, url_prefix='/')
 
 config = {
     'SITEURL': 'http://localhost:5000',
-	'SITENAME': 'Mohanad Kaleia | Blog',
+	'SITENAME': 'Mohanad Kaleia',
 }
 
 # Configure micawber with the default OEmbed providers (YouTube, Flickr, etc).

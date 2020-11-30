@@ -1,6 +1,6 @@
 {% extends "base.html" %} 
 
-{% block title %}{{ SITENAME }}{% endblock %} 
+{% block title %}{{ config.SITENAME }} | Home {% endblock %} 
 
 {% block content %}
 
@@ -49,7 +49,7 @@
     <div class="row">
         {% for post in posts[:3] %}        
         <div class="col-md-4 col-sm-12">
-            <div class="card mb-4 shadow p-3 bg-white rounded">       
+            <div class="card mb-4 p-3 bg-white rounded">       
                 <img src="{{ post.cover }}" class="card-img-top" alt="{{ post.title }}" height="225" width="100%">
                 
                 <div class="card-body">

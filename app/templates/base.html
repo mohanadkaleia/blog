@@ -3,6 +3,7 @@
   <head>
     <title>{% block title %}{% endblock %}</title>
     <meta charset="UTF-8" />
+    <link rel="icon" href="{{ url_for('static',filename='images/face.png') }}">
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,14 +12,16 @@
     />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">    
     <link href="{{ url_for('static',filename='css/main.css') }}" rel="stylesheet" />    
-    <link href="{{ url_for('static',filename='css/pygment.css') }}" rel="stylesheet" />        
+    <link href="{{ url_for('static',filename='css/pygment.css') }}" rel="stylesheet" />    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">    
   </head>
 
   <body class="bg-light">
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light nav-underline shadow-sm p-3 mb-5 bg-white">    
         <a class="navbar-brand" href="{{ config.SITEURL }}" style="color:#364967">
-            <img src="/theme/images/logo.png" height="30" class="d-inline-block align-top" alt="">
+            <img src="{{ url_for('static',filename='images/logo.png') }}" height="30" class="d-inline-block align-top" alt="">
             Mohanad Kaleia
         </a>  
       <button
@@ -34,10 +37,10 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">                   
+        <ul class="navbar-nav mr-auto navbar-center">                   
           
           <li class="nav-item">
-            <a class="nav-link" style="color: #6187C8" href="{{ config.SITEURL }}/blog">Blog</a>
+            <a class="nav-link active" style="color: #6187C8" href="{{ config.SITEURL }}/blog">Blog</a>
           </li>
 
           <li class="nav-item">
