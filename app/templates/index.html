@@ -36,7 +36,11 @@
         </div>
     </div>
 </div>
-    
+
+</br>
+</br>
+</br>
+
 <div class="row justify-content-md-center">
     <h1 class="header-title">Latest Posts</h1>
 </div>
@@ -44,7 +48,7 @@
 <div class="container">
     <div class="row">
         {% for post in posts[:3] %}        
-        <div class="col-md-4 col-sm-12 col-12">
+        <div class="col-md-4 col-sm-12">
             <div class="card mb-4 shadow p-3 bg-white rounded">       
                 <img src="{{ post.cover }}" class="card-img-top" alt="{{ post.title }}" height="225" width="100%">
                 
@@ -62,11 +66,11 @@
                         <small class="text-muted">{{ post.date }}</small>
                     </div>            
                 </div>
-            </div>    
-            {% else %}
-            No posts yet!
-            {% endfor %}    
+            </div>                  
         </div>
+        {% else %}
+            No posts yet!   
+        {% endfor %}  
     </div> 
 </div>
 

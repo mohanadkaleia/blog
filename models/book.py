@@ -19,12 +19,12 @@ class ErrInvalidName(Exception):
 	pass
 
 
-CONTENT_DIR = 'content/posts'
+CONTENT_DIR = 'content/books'
 
 
 def get(name=""):		
 	if not name:
-		raise ErrInvalidName('Please provide a post name')
+		raise ErrInvalidName('Please provide a book name')
 
 	# Parse the entry file, the file should follow the following template:
 	# key: value	
@@ -36,15 +36,13 @@ def get(name=""):
 	md = markdown.Markdown(extensions=['meta', 'fenced_code', hilite, extras], output_format='html5')	
 	html = md.convert(text)
 		
-	# Clean up the meta format
 	meta = {key: value[0] for key, value in md.Meta.items()}
-	summary = get_summary(html)
-	body = {'content': html, 'summary': summary}
+	body = {'content': html}
 
 	return {**meta, **body}
 
 def all():
-	posts = []
+	books = []
 	
 	files = os.listdir(CONTENT_DIR)
 
@@ -53,24 +51,6 @@ def all():
 		if file[-3:] != '.md':
 			continue
 		
-		posts.append(get(file[:-3]))
+		books.append(get(file[:-3]))
 
-	return sort(posts)
-
-
-# This function is forked from here: https://github.com/MinchinWeb/minchin.pelican.plugins.summary
-def get_summary(content):
-	# Summary will take the first paragraph of the content
-	begin_marker, end_marker = '<p>', '</p>'
-	remove_markers = False
-	begin_summary = content.find(begin_marker)
-	end_summary = content.find(end_marker)
-
-	summary = content[begin_summary:end_summary]
-	summary = re.sub(r"<div.*>", "", summary)
-	summary = re.sub(r"</div>", "", summary)
-
-	return summary
-
-def sort(posts):
-	return sorted(posts, key = lambda i: i['date'], reverse=True)
+	return books

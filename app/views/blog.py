@@ -1,5 +1,6 @@
 import flask
 import models.post
+import models.book
 
 
 from flask import Blueprint, render_template, Markup
@@ -9,7 +10,8 @@ from micawber.cache import Cache as OEmbedCache
 app = Blueprint('blog', __name__, url_prefix='/')
 
 config = {
-    'SITEURL': 'http://localhost:5000'
+    'SITEURL': 'http://localhost:5000',
+	'SITENAME': 'Mohanad Kaleia | Blog',
 }
 
 # Configure micawber with the default OEmbed providers (YouTube, Flickr, etc).
@@ -22,12 +24,32 @@ def index():
 	posts = models.post.all()
 	return render_template('index.html', posts=posts, config=config)
 
+@app.route('/blog')
+def blog():
+	posts = models.post.all()
+	return render_template('blog.html', posts=posts, config=config)
+
+@app.route('/books')
+def books():
+	books = models.book.all()
+	for book in books:		
+		content = parse_html(
+			book['content'],
+			oembed_providers,
+			urlize_all=True,
+		)
+
+		book['content'] = Markup(content)	
+
+	return render_template('books.html', books=books, config=config)
+
 @app.route('/<slug>')
 def post(slug):
 	try:
 		entry = models.post.get(slug)	
 	except Exception:
 		return "oops.. I could not find this page!!"
+	
 	content = parse_html(
 		entry['content'],
 		oembed_providers,

@@ -1,0 +1,53 @@
+{% extends "base.html" %} 
+
+{% block title %}{{ config.SITENAME }}{% endblock %} 
+
+{% block content %}
+
+<div class="justify-content-md-center">
+    <h1 class="header-title">Books I read and recommend</h1>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Author</th>
+        <th scope="col">ISBN</th>
+        <th scope="col">Date</th>
+        <th scope="col">My Rating</th>        
+      </tr>
+    </thead>
+    <tbody>
+
+        {% for book in books %}   
+        <tr>
+            <th scope="row">1</th>
+            <td>{{ book.title }}</td>
+            <td>{{ book.writer }}</td>
+            <td>{{ book.isbn }}</td>
+            <td>{{ book.date }}</td>            
+            <td>{{ book.rate }} / 10</td>
+        </tr>
+
+        <tr>
+            <td colspan="6">
+                <div dir="{{book.direction}}" {{ 'style=text-align:right;' if book.direction == 'rtl' else '' }}>
+                    {{ book.content }}
+                </div>
+            </td>
+        </tr>
+
+        {% else %}
+        <tr>
+            <td colspan="6">No posts yet!</td>
+        </tr>
+            
+        {% endfor %}        
+    </tbody>
+</table>
+
+</br>
+</br>
+{% endblock %}
