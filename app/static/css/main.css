@@ -136,3 +136,9 @@ blockquote p {
     align-items: center;
     color: #796eff;
 }
+
+.about p {
+    font-family: 'Space Mono', monospace;
+    line-height: 2.0;
+    text-align: center;
+}

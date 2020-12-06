@@ -8,7 +8,7 @@
     <h1 class="header-title">Books I read and recommend</h1>
 </div>
 
-<table class="table table-bordered">
+<table class="table table-bordered rounded bg-white p-3">
     <thead>
       <tr>
         <th scope="col">#</th>
@@ -16,11 +16,11 @@
         <th scope="col">Author</th>
         <th scope="col">ISBN</th>
         <th scope="col">Date</th>
-        <th scope="col">My Rating</th>        
+        <th scope="col">My Rating</th>     
+        <th scope="col">My Review</th>     
       </tr>
     </thead>
     <tbody>
-
         {% for book in books %}   
         <tr>
             <th scope="row">1</th>
@@ -29,15 +29,40 @@
             <td>{{ book.isbn }}</td>
             <td>{{ book.date }}</td>            
             <td>{{ book.rate }} / 10</td>
+            <td>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal{{ book.isbn }}">
+                    Review
+                </button>
+
+                <div class="modal" id="modal{{ book.isbn }}" tabindex="-1">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">{{ book.title }}</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body" dir="{{book.direction}}" {{ 'style=text-align:right;' if book.direction == 'rtl' else '' }}>
+                          <p>{{ book.content }}</p>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>                          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </td>
+
         </tr>
 
-        <tr>
+        <!-- <tr>
             <td colspan="6">
                 <div dir="{{book.direction}}" {{ 'style=text-align:right;' if book.direction == 'rtl' else '' }}>
                     {{ book.content }}
                 </div>
             </td>
-        </tr>
+        </tr> -->
 
         {% else %}
         <tr>
