@@ -1,7 +1,7 @@
 import markdown
 import markdown.extensions.fenced_code
 import os
-import re
+import app.util
 
 from bs4 import BeautifulSoup
 from markdown.extensions.codehilite import CodeHiliteExtension
@@ -38,7 +38,7 @@ def get(name=""):
 		
 	# Clean up the meta format
 	meta = {key: value[0] for key, value in md.Meta.items()}
-	summary = get_summary(html)
+	summary = app.util.get_summary(html)
 	body = {'content': html, 'summary': summary}
 
 	return {**meta, **body}
@@ -57,20 +57,6 @@ def all():
 
 	return sort(posts)
 
-
-# This function is forked from here: https://github.com/MinchinWeb/minchin.pelican.plugins.summary
-def get_summary(content):
-	# Summary will take the first paragraph of the content
-	begin_marker, end_marker = '<p>', '</p>'
-	remove_markers = False
-	begin_summary = content.find(begin_marker)
-	end_summary = content.find(end_marker)
-
-	summary = content[begin_summary:end_summary]
-	summary = re.sub(r"<div.*>", "", summary)
-	summary = re.sub(r"</div>", "", summary)
-
-	return summary
 
 def sort(posts):
 	return sorted(posts, key = lambda i: i['date'], reverse=True)

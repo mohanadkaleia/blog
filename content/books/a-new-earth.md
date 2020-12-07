@@ -4,9 +4,8 @@ Author: mohanad
 Category: books
 Slug: my-journey-from-doubt-to-Iman
 Status: published
-Cover: /theme/images/book_my-journey-from-doubt-to-Iman.jpg
-Direction: rtl
-Writer: مصطفى محمود
+Direction: ltr
+Writer: Eckhart Tolle
 Rate: 7
 ISBN: 9770810185
 
