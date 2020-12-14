@@ -5,7 +5,7 @@
 {% block content %}
 
 <div class="justify-content-md-center">
-    <h1 class="header-title">Books I read and recommend</h1>
+    <h1 class="header-title">Reading List</h1>
 </div>
 
 <table class="table table-bordered rounded bg-white p-3">
@@ -20,10 +20,10 @@
         <th scope="col">My Review</th>     
       </tr>
     </thead>
-    <tbody>
-        {% for book in books %}   
+    <tbody>        
+        {% for book in books %}           
         <tr>
-            <th scope="row">1</th>
+            <th scope="row">{{ loop.index }}</th>            
             <td>{{ book.title }}</td>
             <td>{{ book.writer }}</td>
             <td>{{ book.isbn }}</td>

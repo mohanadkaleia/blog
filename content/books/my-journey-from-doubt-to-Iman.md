@@ -1,5 +1,5 @@
 Title: رحلتي من الشك إلى الأيمان
-Date: 2019-12-09
+Date: 2020-07-09
 Author: mohanad
 Category: books
 Slug: my-journey-from-doubt-to-Iman
