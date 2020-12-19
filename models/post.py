@@ -2,6 +2,7 @@ import markdown
 import markdown.extensions.fenced_code
 import os
 import app.util
+import langdetect
 
 from bs4 import BeautifulSoup
 from markdown.extensions.codehilite import CodeHiliteExtension
@@ -38,7 +39,14 @@ def get(name=""):
 		
 	# Clean up the meta format
 	meta = {key: value[0] for key, value in md.Meta.items()}
-	summary = app.util.get_summary(html)
+	summary = app.util.get_summary(html)	
+	
+	if 'direciton' not in meta:
+		try:
+			meta['Direction'] = 'rtl' if langdetect.detect(summary) == 'ar' else 'ltr'			
+		except:
+			meta['Direction'] = 'ltr'
+	
 	body = {'content': html, 'summary': summary}
 
 	return {**meta, **body}
