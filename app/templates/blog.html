@@ -13,7 +13,7 @@
                 
                 <div class="card-body">
                     <h1><a href="/{{ post.slug }}"><mark>{{post.title}}</mark></a></h1>
-                    <p class="card-text" dir="{{post.direction}}" {{ 'style="text-align: right;"' if post.direction == 'rtl' else '' }}>            
+                    <p class="card-text" dir="{{post.direction}}" {{ 'style=text-align:right;' if post.direction == 'rtl' else '' }}>            
                         {{ post.summary | striptags }}
                     </p>
                     <div class="d-flex justify-content-between align-items-center">
