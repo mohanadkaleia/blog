@@ -2,11 +2,14 @@ import markdown
 import markdown.extensions.fenced_code
 import os
 import app.util
+import app.logger
 import langdetect
 
 from bs4 import BeautifulSoup
 from markdown.extensions.codehilite import CodeHiliteExtension
 from markdown.extensions.extra import ExtraExtension
+
+log = logger.get_logger(__name__)
 
 
 class ErrNotFound(Exception):
@@ -24,7 +27,9 @@ CONTENT_DIR = 'content/posts'
 
 
 def get(name=""):		
-	if not name:
+	log.info (f'Get article: {name}')
+
+	if not name:		
 		raise ErrInvalidName('Please provide a post name')
 
 	# Parse the entry file, the file should follow the following template:
@@ -52,6 +57,8 @@ def get(name=""):
 	return {**meta, **body}
 
 def all():
+	log.info ('Get all articles')
+
 	posts = []
 	
 	files = os.listdir(CONTENT_DIR)
