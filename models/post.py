@@ -58,7 +58,7 @@ def all():
 
 	for file in files:
 		
-		if file[-3:] != '.md':
+		if file[-3:] != '.md' or file.startswith('.'):
 			continue
 		
 		posts.append(get(file[:-3]))
