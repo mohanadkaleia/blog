@@ -2,7 +2,7 @@ import markdown
 import markdown.extensions.fenced_code
 import os
 import app.util
-import app.logger
+import app.logger as logger
 import langdetect
 
 from bs4 import BeautifulSoup

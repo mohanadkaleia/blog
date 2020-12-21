@@ -1,13 +1,14 @@
 import flask
 import models.post
 import models.book
-
+import app.logger as logger
 
 from flask import Blueprint, render_template, Markup
 from micawber import bootstrap_basic, parse_html
 from micawber.cache import Cache as OEmbedCache
 
 app = Blueprint('blog', __name__, url_prefix='/')
+log = logger.get_logger(__name__)
 
 config = {
     'SITEURL': 'http://localhost:5000',
@@ -21,16 +22,19 @@ oembed_providers = bootstrap_basic(OEmbedCache())
 
 @app.route('/')
 def index():
+	log.info("Request the main page")
 	posts = models.post.all()
 	return render_template('index.html', posts=posts, config=config)
 
 @app.route('/blog')
 def blog():
+	log.info("Request /blog")
 	posts = models.post.all()
 	return render_template('blog.html', posts=posts, config=config)
 
 @app.route('/books')
 def books():
+	log.info("Request /books")
 	books = models.book.all()
 	for book in books:		
 		content = parse_html(
@@ -45,6 +49,8 @@ def books():
 
 @app.route('/<slug>')
 def post(slug):
+	log.info(f"Request /{slug}")
+
 	try:
 		entry = models.post.get(slug)	
 	except Exception:
@@ -61,5 +67,6 @@ def post(slug):
 
 @app.route('/contact')
 def contact():
+	log.info("Request /contact")
 	return 'mohanad@kaleia.io'
 	

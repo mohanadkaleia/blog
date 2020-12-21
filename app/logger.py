@@ -3,9 +3,9 @@ import os
 import sys
 
 
-FORMATTER = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+FORMATTER = logging.Formatter("%(asctime)s: [%(levelname)s] [%(name)s] %(message)s")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_FILE = BASE_DIR + "/transbot.log"
+LOG_FILE = BASE_DIR + "/../blog.log"
 
 
 def get_console_handler():
