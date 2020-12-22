@@ -27,7 +27,6 @@ CONTENT_DIR = 'content/posts'
 
 
 def get(name=""):		
-	log.info (f'Get article: {name}')
 
 	if not name:		
 		raise ErrInvalidName('Please provide a post name')
@@ -57,8 +56,6 @@ def get(name=""):
 	return {**meta, **body}
 
 def all():
-	log.info ('Get all articles')
-
 	posts = []
 	
 	files = os.listdir(CONTENT_DIR)
