@@ -10,7 +10,7 @@ Status: published
 
  
 
-[PHPMyAdmin]{style="color: rgb(128, 0, 128);"} 
+PHPMyAdmin
 ----------------------------------------------
 
 ![](http://www.livehacking.com/web/wp-content/uploads/2012/09/phpmyadmin_logo_300x300.png){.aligncenter width="300" height="300"}[من خلال phpMyAdmin يمكننا إدارة قواعد البيانات من نوع MySQL من خلال الويب مباشرة.. وهي تعتبر المفضلة لشركات الاستضافة لذا من المهم جداً أن تكون على معرفة بها في حال رغبتك برفع موقع على شركة استضافة..]{style="line-height: 1.6em;"}
