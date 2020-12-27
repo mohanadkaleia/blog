@@ -44,17 +44,9 @@ def migrate_article_images(name):
         except Exception as e:            
             print(e)            
         
-def main():
-    filename = 'working-with-prolog-on-ubuntu.md'
-    migrate_article_images(filename)
-    
-    # count = 0
-    # for filename in os.listdir(CONTENT_DIR):        
-    #     migrate_article_images(filename)
-    #     count += 1
-    #     if count >= 10:
-    #         return
-
+def main():                
+    for filename in os.listdir(CONTENT_DIR):        
+        migrate_article_images(filename)        
 
 if __name__ == '__main__':
     main()
