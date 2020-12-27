@@ -7,9 +7,9 @@ Status: published
 
  
 
-[![codeIgniter](http://mycodee.com/wp-content/uploads/2012/10/codeig_ote-300x216.png){.aligncenter .size-full .wp-image-199 width="300" height="216"}](http://mycodee.com/wp-content/uploads/2012/10/codeig_ote-300x216.png)
+[![codeIgniter](../../static/images/how-to-remove-index-php-from-codeigniter-url/codeig_ote-300x216.png){.aligncenter .size-full .wp-image-199 width="300" height="216"}](../../static/images/how-to-remove-index-php-from-codeigniter-url/codeig_ote-300x216.png)
 
-[في حال كنت مطور ويب وتعاملت مع بيئة [codeIgniter](http://ellislab.com/codeigniter) لابد وأنك قد لاحظت أن الرابط URL الافتراضي يحتوي على الجزء **index.php** وربما قد أزعجك وجوده مثلي بشكل دائم، ولابد أنك تريد تغييره وحذفه وإلا لما وصلت لهذه الصفحة ![wink](http://mycodee.com/wp-content/plugins/ckeditor-for-wordpress/ckeditor/plugins/smiley/images/wink_smile.gif "wink"){width="20" height="20"}.]{style="font-size:14px;"}
+[في حال كنت مطور ويب وتعاملت مع بيئة [codeIgniter](http://ellislab.com/codeigniter) لابد وأنك قد لاحظت أن الرابط URL الافتراضي يحتوي على الجزء **index.php** وربما قد أزعجك وجوده مثلي بشكل دائم، ولابد أنك تريد تغييره وحذفه وإلا لما وصلت لهذه الصفحة ![wink](../../static/images/how-to-remove-index-php-from-codeigniter-url/wink_smile.gif "wink"){width="20" height="20"}.]{style="font-size:14px;"}
 
 > [before:]{style="font-size:14px;"}
 >
@@ -56,7 +56,7 @@ Status: published
 
 > [service apache2 restart]{style="font-family: Menlo, Monaco, 'Andale Mono', 'lucida console', 'Courier New', monospace; font-size: 13px; line-height: 18.850000381469727px; white-space: pre;"}
 
-تهانينا لقد أصبح عنوان URL خالي من index.php المزعجة للمستخدم ولمحركات البحث ![wink](http://mycodee.com/wp-content/plugins/ckeditor-for-wordpress/ckeditor/plugins/smiley/images/wink_smile.gif "wink"){width="20" height="20"}
+تهانينا لقد أصبح عنوان URL خالي من index.php المزعجة للمستخدم ولمحركات البحث ![wink](../../static/images/how-to-remove-index-php-from-codeigniter-url/wink_smile.gif "wink"){width="20" height="20"}
 
  
 

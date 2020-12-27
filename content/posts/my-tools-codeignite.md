@@ -5,7 +5,7 @@ Category: Application, Code
 Slug: my-tools-codeignite
 Status: published
 
-[![codeIgniter](http://mycodee.com/wp-content/uploads/2012/10/codeig_ote-300x216.png){.aligncenter .size-full .wp-image-199 width="300" height="216"}](http://mycodee.com/wp-content/uploads/2012/10/codeig_ote-300x216.png)بقلم م.مهند شب قلعية
+[![codeIgniter](../../static/images/my-tools-codeignite/codeig_ote-300x216.png){.aligncenter .size-full .wp-image-199 width="300" height="216"}](../../static/images/my-tools-codeignite/codeig_ote-300x216.png)بقلم م.مهند شب قلعية
 
 من ضمن سلسلة أدواتي، تحدثت سابقاً عن [محرر لغات الويب](http://mycodee.com/my-tools-editors/) aptana، في هذه التدوينة سأطرح بيئة أو إطار عمل للغة الويب PHP هذه البيئة هي [CodeIgniter](http://ellislab.com/codeigniter)، ولكن قبل أن أتكلم عن مميزات هذه البيئة أحب أن أطرح أساليب عمل أي مشروع ويب وكيفية اختيار بيئة العمل المناسبة له.
 
