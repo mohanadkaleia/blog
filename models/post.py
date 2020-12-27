@@ -42,14 +42,17 @@ def get(name=""):
 	html = md.convert(text)
 		
 	# Clean up the meta format
-	meta = {key: value[0] for key, value in md.Meta.items()}
+	meta = {key.lower(): value[0] for key, value in md.Meta.items()}
 	summary = app.util.get_summary(html)	
 	
 	if 'direciton' not in meta:
 		try:
-			meta['Direction'] = 'rtl' if langdetect.detect(summary) == 'ar' else 'ltr'			
+			meta['direciton'] = 'rtl' if langdetect.detect(summary) == 'ar' else 'ltr'			
 		except:
-			meta['Direction'] = 'ltr'
+			meta['direciton'] = 'ltr'
+	
+	if 'cover' not in meta:
+		meta['cover'] = app.util.get_cover(html)
 	
 	body = {'content': html, 'summary': summary}
 

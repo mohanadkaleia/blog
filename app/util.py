@@ -16,3 +16,13 @@ def get_summary(content):
 		
 	# Return the first 300 characters
 	return summary[:300]	
+
+
+def get_cover(conetnt):		
+	# Find an return the first image
+	regex = 'src="([^">]+)"[^>]+>'
+	try:
+		return re.search(regex, conetnt).group(1)
+	except Exception as e:
+		# lol
+		return '../../static/images/logo.png'	
