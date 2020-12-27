@@ -41,14 +41,14 @@
 </br>
 </br>
 
-<div class="row justify-content-md-center">
+<div class="row justify-content-center">
     <h1 class="header-title">Latest Posts</h1>
 </div>
 
 <div class="container">
     <div class="row">
         {% for post in posts[:3] %}        
-        <div class="col-md-4 col-sm-12">
+        <div class=".col-12 col-sm-12 col-md-12 col-lg-4">
             <div class="card mb-4 p-3 bg-white rounded">       
                 <img src="{{ post.cover }}" class="card-img-top" alt="{{ post.title }}" height="225" width="100%">
                 
@@ -74,7 +74,7 @@
     </div> 
 </div>
 
-<div class="row justify-content-md-center">
+<div class="row justify-content-center">
     <div class="">
         <div class="btn-group">
             <a href="{{ config.SITEURL }}/blog" class="btn btn-sm btn-outline-primary">
