@@ -1,6 +1,7 @@
 import flask
 import models.post
 import models.book
+import config as cfg
 import app.logger as logger
 
 from flask import Blueprint, render_template, Markup
@@ -9,11 +10,7 @@ from micawber.cache import Cache as OEmbedCache
 
 app = Blueprint('blog', __name__, url_prefix='/')
 log = logger.get_logger(__name__)
-
-config = {
-    'SITEURL': 'http://localhost:5000',
-	'SITENAME': 'Mohanad Kaleia',
-}
+config = cfg.get_config()
 
 # Configure micawber with the default OEmbed providers (YouTube, Flickr, etc).
 # We'll use a simple in-memory cache so that multiple requests for the same
