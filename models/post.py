@@ -60,15 +60,14 @@ def all():
 	
 	files = os.listdir(CONTENT_DIR)
 
-	for file in files:
-		
+	for file in files:		
 		if file[-3:] != '.md' or file.startswith('.'):
 			continue
 		
 		posts.append(get(file[:-3]))
-
+			
 	return sort(posts)
 
 
-def sort(posts):
+def sort(posts):	
 	return sorted(posts, key = lambda i: i['date'], reverse=True)
