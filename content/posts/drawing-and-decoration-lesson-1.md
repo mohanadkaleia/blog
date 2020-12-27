@@ -5,7 +5,7 @@ Category: Drawing &amp; decorating
 Slug: drawing-and-decoration-lesson-1
 Status: draft
 
-[![drawing](http://mycodee.com/wp-content/uploads/2013/07/drawing-300x192.jpg){.aligncenter .size-medium .wp-image-318 width="300" height="192"}](http://mycodee.com/wp-content/uploads/2013/07/drawing.jpg)
+[![drawing](../../static/images/drawing-and-decoration-lesson-1/drawing-300x192.jpg){.aligncenter .size-medium .wp-image-318 width="300" height="192"}](../../static/images/drawing-and-decoration-lesson-1/drawing.jpg)
 
 في سلسلة الدروس هذه سأقوم بطرح ما أتعلمه في دورة الرسم والديكور، حيث سيتم طرح الأفكار والإبداعات والرسومات اللي بيتم إعطاءها في الدورة.
 

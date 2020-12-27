@@ -6,7 +6,7 @@ Tags: host name, oracle, TNS listener, XE
 Slug: oracle-tns-listener-service-not-starting
 Status: published
 
-![Oracle\_Database](http://mycodee.com/wp-content/uploads/2014/03/Oracle_Database-150x150.jpg){.aligncenter .size-thumbnail .wp-image-361 width="150" height="150"}
+![Oracle\_Database](../../static/images/oracle-tns-listener-service-not-starting/Oracle_Database-150x150.jpg){.aligncenter .size-thumbnail .wp-image-361 width="150" height="150"}
 
 من فترة صادفتني مشكلة عند تعاملي مع قاعدة البيانات أوراكل، قبل أن أبدأ النسخة التي أعمل عليها هي oracle XE 10g، المشكلة هي أنني لا استطيع الاتصال بقاعدة البيانات ولا حتى فتح واجهة الإدارة من المتصفح!!
 

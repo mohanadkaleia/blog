@@ -6,7 +6,7 @@ Tags: canon, driver, e404, linux mint, printer, scangear, scanner
 Slug: printer-driver-on-linux
 Status: published
 
-[![99393193](http://mycodee.com/wp-content/uploads/2015/07/99393193.jpg){.aligncenter .size-full .wp-image-575 width="313" height="313"}](http://mycodee.com/wp-content/uploads/2015/07/99393193.jpg)
+[![99393193](../../static/images/printer-driver-on-linux/99393193.jpg){.aligncenter .size-full .wp-image-575 width="313" height="313"}](../../static/images/printer-driver-on-linux/99393193.jpg)
 
 مرحباً .. إن كنت من مستخدمي نظام التشغيل جنو\\لينوكس .. وتريد شراء طابعة ولكن تخشى من عدم وجود تعريف لها على اللينوكس فلا تقلق .. في أغلب الحالات يوجد تعريف لأي طابعة على أنظمة لينوكس ..
 
@@ -37,7 +37,7 @@ Status: published
 
 > scangearmp
 
-[![Screenshot from 2015-07-05 11:46:23](http://mycodee.com/wp-content/uploads/2015/07/Screenshot-from-2015-07-05-114623-300x194.png){.aligncenter .size-medium .wp-image-576 width="300" height="194"}](http://mycodee.com/wp-content/uploads/2015/07/Screenshot-from-2015-07-05-114623.png)
+[![Screenshot from 2015-07-05 11:46:23](../../static/images/printer-driver-on-linux/Screenshot-from-2015-07-05-114623-300x194.png){.aligncenter .size-medium .wp-image-576 width="300" height="194"}](../../static/images/printer-driver-on-linux/Screenshot-from-2015-07-05-114623.png)
 
 سيظهر لك البرنامج لتقوم من خلاله بعمليات المسح الضوئي .. يمكنك لو أحببت ان تقوم بعمل luncher له حتى لا تضطر لتشغيله من سطر الأوامر دوماً
 

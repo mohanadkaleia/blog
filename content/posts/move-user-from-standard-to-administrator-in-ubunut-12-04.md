@@ -5,7 +5,7 @@ Category: GNULinux, howto
 Slug: move-user-from-standard-to-administrator-in-ubunut-12-04
 Status: published
 
-[![root](http://mycodee.com/wp-content/uploads/2012/10/root-300x188.jpg){.aligncenter .size-medium .wp-image-196 width="300" height="188"}](http://mycodee.com/wp-content/uploads/2012/10/root.jpg)
+[![root](../../static/images/move-user-from-standard-to-administrator-in-ubunut-12-04/root-300x188.jpg){.aligncenter .size-medium .wp-image-196 width="300" height="188"}](../../static/images/move-user-from-standard-to-administrator-in-ubunut-12-04/root.jpg)
 
 مؤخراً قمت بالخطأ بتحويل حساب المستخدم الأساسي لنظام أبونتو من administrator إلى standard :( .. وبعدها لم أتمكن من فعل أي عمل يتطلب صلاحيات الأدمن، مثل تنصيب برامج وغيرها .. وحتى لم أتمكن من الانتقال لحساب الرووت من خلال تعليمة sudo su!!
 

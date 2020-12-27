@@ -6,7 +6,7 @@ Tags: app, hide, ios, keyboard
 Slug: how-to-hide-keyboard-in-ios-app
 Status: published
 
-[![twitter-keyboard-100056244-large](http://mycodee.com/wp-content/uploads/2014/08/twitter-keyboard-100056244-large-300x201.png){.aligncenter .size-medium .wp-image-490 width="300" height="201"}](http://mycodee.com/wp-content/uploads/2014/08/twitter-keyboard-100056244-large.png)
+[![twitter-keyboard-100056244-large](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large-300x201.png){.aligncenter .size-medium .wp-image-490 width="300" height="201"}](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large.png)
 
  
 
@@ -63,7 +63,7 @@ Status: published
 
 الآن قم باختيار الحقل النصي الذي قمنا بإضافته مسبقاً text field ثم قم باختيار نافذة connection inspector من الجهة اليمنى، وقم بالنقر على الدائرة على اليمين للحدث Did end on exit واسحبه إلى أسفل View controller  كما هو مبين بالشكل وافلته وقم باختيار التابع HideKeyboardViewController الذي قمنا بكتابته مسبقاً:
 
-[![Xcode\_5\_connection\_to\_viewcontroller](http://mycodee.com/wp-content/uploads/2014/08/Xcode_5_connection_to_viewcontroller.png){.aligncenter .size-full .wp-image-492 width="796" height="713"}](http://mycodee.com/wp-content/uploads/2014/08/Xcode_5_connection_to_viewcontroller.png)
+[![Xcode\_5\_connection\_to\_viewcontroller](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png){.aligncenter .size-full .wp-image-492 width="796" height="713"}](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png)
 
 الآن لو جربنا تشغيل البرنامج إذا نقرنا على الحقل النصي لإظهار الكيبورد يمكننا الآن إخفاءه من خلال النقر على زر Return.
 

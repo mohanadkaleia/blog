@@ -5,7 +5,7 @@ Category: maintenance, windows xp
 Slug: stop-0x000000ed-windows-xp-keep-rebooting
 Status: published
 
-![Cat-In-Computer226](http://mycodee.com/wp-content/uploads/2013/08/Cat-In-Computer226.jpg){.aligncenter .size-full .wp-image-333 width="254" height="289"}
+![Cat-In-Computer226](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/Cat-In-Computer226.jpg){.aligncenter .size-full .wp-image-333 width="254" height="289"}
 
  
 
@@ -15,11 +15,11 @@ Status: published
 
 [عند الإقلاع نقوم بضغط الزر F8 ليعطينا خيارات الإقلاع ونختار عدم إعادة الإقلاع في حال حصول مشكلة وهذا الأمر سوف يتيح لنا معرفة رقم الخطأ الذي سبب هذه المشكلة، كما في الشكل التالي:]{style="font-family:arial,helvetica,sans-serif;"}
 
-[![boot option](http://mycodee.com/wp-content/uploads/2013/08/boot-option.png){.aligncenter .size-full .wp-image-331 width="720" height="400"}](http://mycodee.com/wp-content/uploads/2013/08/boot-option.png)
+[![boot option](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png){.aligncenter .size-full .wp-image-331 width="720" height="400"}](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png)
 
 نقوم بالضغط على خيار "**Disable automatic restart on system failure**" ، بعدها سوف تظهر لنا الشاشة الزرقاء وعليها رقم الخطأ وشرح بسيط عن كيفية الحل (طبعاً لن يفيدنا بشيء !!) كما في الشكل التالي، رقم الخطأ [**0x000000ED unmountable\_boot\_volume** في حال ظهرت لك نفس المشكلة تابع معي قراءة الحل]{style="color: rgb(0, 0, 0); font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px;"}:
 
-[![0x000000ED](http://mycodee.com/wp-content/uploads/2013/08/0x000000ED-.png){.aligncenter .size-full .wp-image-332 width="469" height="352"}](http://mycodee.com/wp-content/uploads/2013/08/0x000000ED-.png)
+[![0x000000ED](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png){.aligncenter .size-full .wp-image-332 width="469" height="352"}](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png)
 
 [سبب المشكلة:]{style="color:#FF8C00;"} 
 --------------------------------------

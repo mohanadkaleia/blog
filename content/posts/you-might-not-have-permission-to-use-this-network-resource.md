@@ -5,7 +5,7 @@ Category: maintenance, Servers
 Slug: you-might-not-have-permission-to-use-this-network-resource
 Status: published
 
-[![ITvenn](http://mycodee.com/wp-content/uploads/2013/06/ITvenn-300x208.png){.aligncenter .size-medium .wp-image-280 width="300" height="208"}](http://mycodee.com/wp-content/uploads/2013/06/ITvenn.png)
+[![ITvenn](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn-300x208.png){.aligncenter .size-medium .wp-image-280 width="300" height="208"}](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn.png)
 
 [بقلم: م. مهند شب قلعية]{style="background-color:#D3D3D3;"}
 
@@ -18,7 +18,7 @@ Status: published
 
 [ملاحظة في اللحظات الأولى لإقلاع الجهاز يمكنه الوصول لموارد السيرفر، ولكن بعد دقائق لا يعود قادر على الوصول وتظهر رسالة الخطأ التالية:]{style="font-size: 13px;"}
 
-[![8117.SNAGHTML127e72fe\_thumb\_7E43F3AC](http://mycodee.com/wp-content/uploads/2013/07/8117.SNAGHTML127e72fe_thumb_7E43F3AC-e1374668502566.png){.aligncenter .size-full .wp-image-324 width="600" height="195"}](http://mycodee.com/wp-content/uploads/2013/07/8117.SNAGHTML127e72fe_thumb_7E43F3AC.png)
+[![8117.SNAGHTML127e72fe\_thumb\_7E43F3AC](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC-e1374668502566.png){.aligncenter .size-full .wp-image-324 width="600" height="195"}](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC.png)
 
 [حل المشكلة:]{style="color:#FF8C00;"} 
 =====================================

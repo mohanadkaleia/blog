@@ -6,7 +6,7 @@ Tags: mac, osx, vmWare
 Slug: how-to-install-mac-on-vmware
 Status: published
 
-[![Apple-logo-300x300](http://mycodee.com/wp-content/uploads/2014/08/Apple-logo-300x300.png){.aligncenter .size-full .wp-image-482 width="300" height="300"}](http://mycodee.com/wp-content/uploads/2014/08/Apple-logo-300x300.png)
+[![Apple-logo-300x300](../../static/images/how-to-install-mac-on-vmware/Apple-logo-300x300.png){.aligncenter .size-full .wp-image-482 width="300" height="300"}](../../static/images/how-to-install-mac-on-vmware/Apple-logo-300x300.png)
 
  
 

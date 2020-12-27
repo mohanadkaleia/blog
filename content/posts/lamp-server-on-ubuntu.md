@@ -5,7 +5,7 @@ Category: Servers
 Slug: lamp-server-on-ubuntu
 Status: published
 
-[![lamp](http://mycodee.com/wp-content/uploads/2011/01/lamp.jpg){.aligncenter .size-full .wp-image-241 width="250" height="127"}](http://mycodee.com/wp-content/uploads/2011/01/lamp.jpg)
+[![lamp](../../static/images/lamp-server-on-ubuntu/lamp.jpg){.aligncenter .size-full .wp-image-241 width="250" height="127"}](../../static/images/lamp-server-on-ubuntu/lamp.jpg)
 
 إن كنت من مطوري الويب فلابد وأنك قد سمعت أو احتجت لتحويل جهازك إلى مخدم ويب لاستضافة مشاريعك الخاصة على جهازك المحلي قبل أن تقوم بتصديرهم للسيرفر الرئيسي،  سنشرح الآن كيفية تنصيب LAMP سيرفر على أبونتو، طبعاً LAMP هي اختصار Linux - Apache - Mysql - PHP.
 
@@ -88,13 +88,13 @@ Status: published
 
 أثناء التنصيب سيظهر لك نافذة لاختيار مخدم الويب ليتم ضبط الإعدادات عليه قم باختيار [**apache**]{style="color:#FF8C00;"}.
 
-[![choose web server](http://mycodee.com/wp-content/uploads/2011/01/choose-web-server-.png){.aligncenter .size-full .wp-image-244 width="664" height="462"}](http://mycodee.com/wp-content/uploads/2011/01/choose-web-server-.png)
+[![choose web server](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png){.aligncenter .size-full .wp-image-244 width="664" height="462"}](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png)
 
  
 
 [بعدها سيطلب منك أن يقوم بضبط قاعدة بيانات من أجل phpMyAdmin مع dbconfig-common قم باختيار [**NO.**]{style="color:#FF8C00;"}]{style="line-height: 1.6em;"}
 
-[![database config](http://mycodee.com/wp-content/uploads/2011/01/database-config.png){.aligncenter .size-full .wp-image-245 width="481" height="122"}](http://mycodee.com/wp-content/uploads/2011/01/database-config.png)
+[![database config](../../static/images/lamp-server-on-ubuntu/database-config.png){.aligncenter .size-full .wp-image-245 width="481" height="122"}](../../static/images/lamp-server-on-ubuntu/database-config.png)
 
 [الآن عليك أن تقوم بنسخ ملف ضبط الإعدادات من خلال كتابة التعليمة التالية في التيرمينال:]{style="line-height: 1.6em;"}
 

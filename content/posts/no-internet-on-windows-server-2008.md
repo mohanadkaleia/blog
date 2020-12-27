@@ -6,7 +6,7 @@ Tags: 0.0.0.0, gate way address, no internet connection
 Slug: no-internet-on-windows-server-2008
 Status: published
 
-![no-internet-connection-300x300](http://mycodee.com/wp-content/uploads/2014/03/no-internet-connection-300x300-300x300.jpg){.size-medium .wp-image-357 .aligncenter width="192" height="192"}
+![no-internet-connection-300x300](../../static/images/no-internet-on-windows-server-2008/no-internet-connection-300x300-300x300.jpg){.size-medium .wp-image-357 .aligncenter width="192" height="192"}
 
 هل واجهتك مشكلة عدم قدرة ويندوز سيرفر 2008 (أو حتى ويندوز فيستا أو 7) من الاتصال بالنت؟!!! جربت أن تعمل **ping** على إحدى المواقع فتحصل على عنوان IP المقابل ولكن لا يمكن الوصول للموقع!!
 

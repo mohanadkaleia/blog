@@ -5,7 +5,7 @@ Category: Uncategorized
 Slug: googles-project-ara-to-get-trial-run-in-puerto-rico
 Status: published
 
-![project-ara](http://mycodee.com/wp-content/uploads/2015/01/project-ara-300x169.jpg){.aligncenter .size-medium .wp-image-531 width="300" height="169"}
+![project-ara](../../static/images/googles-project-ara-to-get-trial-run-in-puerto-rico/project-ara-300x169.jpg){.aligncenter .size-medium .wp-image-531 width="300" height="169"}
 
 هل سمعت من قبل بمشروع ARA من غوغل للهواتف الذكية؟ حسناً إن كنت لم تسمع به فهو يعتمد على أن يقوم المستخدم ببناء هاتفه الذكي بنفسه من خلال تجميع قطعه المختلفة (كاميرا - ذاكرة - معالج ..) بحيث تتيح للمستخدم حرية اختيار المواصفات حسب احتياجاته، مثلاً لو كنت من هواة التصوير عندها يمكنك التركيز على الكاميرا وتوفير أموالك على الصوت مثلاً. Google ARA ستجعمل من ذلك ممكناً.
 

@@ -24,7 +24,7 @@ Direction: rtl
 3.  [يمكن تشغيل البرنامج والتعامل معه إما من خلال سطر الأوامر أو يمكن استخدام الواجه المرئية [GUI]{dir="LTR"} الخاصة به (بالنسبة لي أفضل استخدام الواجهة المرئية)]{style="font-size:14px;"}
 4.  [لتشتغيل الواجهة المرئية، من سطر الأوامر قم بتحويل المسار ليوافق مسار البرنامج]{style="font-size:14px;"}
 5.  [بعدها قم بتنفيذ التعليمة: [nssm.exe install \<servicename\>]{dir="LTR"}]{style="font-size:14px;"}
-6.  [بتنفيذ هذه التعليمة سوف تفتح لك الواجهة لتقوم بإضافة البرنامج الذي تريد تحويله إلى خدمة، كما هو موضح بالشكل التالي: [![install\_application](http://mycodee.com/wp-content/uploads/2016/06/install_application-300x171.png){.aligncenter .size-medium .wp-image-623 width="300" height="171"}](http://mycodee.com/wp-content/uploads/2016/06/install_application.png)]{style="font-size:14px;"}
+6.  [بتنفيذ هذه التعليمة سوف تفتح لك الواجهة لتقوم بإضافة البرنامج الذي تريد تحويله إلى خدمة، كما هو موضح بالشكل التالي: [![install\_application](../../static/images/create-windows-service-from-an-application/install_application-300x171.png){.aligncenter .size-medium .wp-image-623 width="300" height="171"}](../../static/images/create-windows-service-from-an-application/install_application.png)]{style="font-size:14px;"}
 7.  [قم بتحديد مسار البرنامج، واختيار اسم للخدمة وقم بالضغط على زر [install service]{dir="LTR"}]{style="font-size:14px;"}
 8.  [الآن تم إنشاء الخدمة، كل ما عليك فعله هو تشغيلها من خلال الذهاب إلى [services]{dir="LTR"}]{style="font-size:14px;"}
 

@@ -23,7 +23,7 @@ Status: published
 
 [حيث نقوم بالضغط بالزر اليمين على القائمة ]{style="font-family:Tahoma;"}Library [واختيار “]{style="font-family:Tahoma;"}add jar file” [وبعدها نقوم بإضافة وسيط الربط ]{style="font-family:Tahoma;"}class12.jar.
 
-[![](http://mycodee.com/wp-content/uploads/2011/06/add_library1.png "add_library"){.aligncenter .size-full .wp-image-105 width="238" height="204"}](http://mycodee.com/wp-content/uploads/2011/06/add_library1.png)
+[![](../../static/images/java-connection-with-oracle/add_library1.png "add_library"){.aligncenter .size-full .wp-image-105 width="238" height="204"}](../../static/images/java-connection-with-oracle/add_library1.png)
 
 [[[**الخطوة الثالثة – كود الاتصال**]{style="font-size:medium;"}]{style="font-family:Tahoma;"}[**:**]{style="font-size:medium;"}]{style="color:#c90016;"}
 

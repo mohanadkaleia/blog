@@ -5,7 +5,7 @@ Category: GNULinux, howto, Servers
 Slug: install-and-setup-ftp-server-on-ubuntu
 Status: published
 
-[![offSiteFTP\_B](http://mycodee.com/wp-content/uploads/2013/06/offSiteFTP_B-300x104.png){.aligncenter .size-medium .wp-image-249 width="300" height="104"}](http://mycodee.com/wp-content/uploads/2013/06/offSiteFTP_B.png)
+[![offSiteFTP\_B](../../static/images/install-and-setup-ftp-server-on-ubuntu/offSiteFTP_B-300x104.png){.aligncenter .size-medium .wp-image-249 width="300" height="104"}](../../static/images/install-and-setup-ftp-server-on-ubuntu/offSiteFTP_B.png)
 
 قبل أن أبداً بشرح كيفية تنصيب مخدم الملفات FTP server، لنتحدث باختصار شديد عن ماهو مخدم الملفات. [بداية FTP هي اختصار File transfer protocol أي بروتوكول نقل الملفات، ومن خلاله يمكن تبادل البيانات في الشبكة بين المخدم والأجهزة العادية. وطبعاً ftp server هو المخدم الذي يتم فيه حفظ البيانات.]{style="line-height: 1.6em;"}
 

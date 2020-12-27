@@ -5,13 +5,13 @@ Category: Design, Website
 Slug: migrate-from-bootstrap-2-0-to-3-0
 Status: published
 
-[![bootstrap\_logo](http://mycodee.com/wp-content/uploads/2014/05/bootstrap_logo-300x64.png){.aligncenter .size-medium .wp-image-392 width="300" height="64"}](http://mycodee.com/wp-content/uploads/2014/05/bootstrap_logo.png)
+[![bootstrap\_logo](../../static/images/migrate-from-bootstrap-2-0-to-3-0/bootstrap_logo-300x64.png){.aligncenter .size-medium .wp-image-392 width="300" height="64"}](../../static/images/migrate-from-bootstrap-2-0-to-3-0/bootstrap_logo.png)
 
 هل قمت باستخدام Bootstrap 2 في إحدى تصميماتك؟ نعم لقد تم إطلاق Bootstrap بنسخة الثالثة ويوجد الكثير من التغييرات، ولا يكفي فقط تضمين النسخة الجديدة، بل عليك أن تقوم بتعديل ملفاتك لكي تتمكن من الانتقال للنسخة الجديدة.. في هذه المقالة سوف أتحدث عن كيفية الانتقال من النسخة الثانية للنسخة الثالثة من [Bootstrap](http://getbootstrap.com).
 
 [بشكل عام الهدف الأساسي من Bootstrap هي قابلية التقييس حسب حجم شاشة العرض المستخدمة، من شاشات الموبايل لشاشات التابلت انتهاء بشاشات الحواسيب الكبيرة واللابتوب]{style="line-height: 1.6em;"}[.]{style="line-height: 1.6em;"}
 
-[![Screenshot from 2014-05-04 21:14:02](http://mycodee.com/wp-content/uploads/2014/05/Screenshot-from-2014-05-04-211402-1024x118.png){.aligncenter .size-large .wp-image-394 width="646" height="74"}](http://mycodee.com/wp-content/uploads/2014/05/Screenshot-from-2014-05-04-211402.png)
+[![Screenshot from 2014-05-04 21:14:02](../../static/images/migrate-from-bootstrap-2-0-to-3-0/Screenshot-from-2014-05-04-211402-1024x118.png){.aligncenter .size-large .wp-image-394 width="646" height="74"}](../../static/images/migrate-from-bootstrap-2-0-to-3-0/Screenshot-from-2014-05-04-211402.png)
 
 [ماذا أفعل؟!!]{style="color:#800080;"} 
 --------------------------------------

@@ -5,7 +5,7 @@ Category: Application, GNULinux, howto
 Slug: how-to-put-apps-launcher-on-the-ubuntu-dock
 Status: published
 
-[![unity launcher](http://mycodee.com/wp-content/uploads/2013/06/unity-launcher.jpg){.aligncenter .size-full .wp-image-261 width="285" height="177"}](http://mycodee.com/wp-content/uploads/2013/06/unity-launcher.jpg)
+[![unity launcher](../../static/images/how-to-put-apps-launcher-on-the-ubuntu-dock/unity-launcher.jpg){.aligncenter .size-full .wp-image-261 width="285" height="177"}](../../static/images/how-to-put-apps-launcher-on-the-ubuntu-dock/unity-launcher.jpg)
 
 يؤمن مشغُل يونيتي  Unity launcher في أبونتو الوصول السريع للتطبيقات من خلال الاختصارات الموجودة عليه، بشكل عام يمكن إضافة أي برنامج إلى هذا المشغل عن طريق تشغيله أولاً وبعدها النقر بالزر اليمين على أيقونته على مشغل يونيتي ونختار lock to launcherK، ولكن بعض التطبيقات لا نستطيع تطبيق هذا الأمر معها، إحدى هذه التطبيقات هي [Aptana](http://www.aptana.com/) 
 

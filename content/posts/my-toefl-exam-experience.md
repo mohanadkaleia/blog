@@ -6,7 +6,7 @@ Tags: iBT, TOEFL
 Slug: my-toefl-exam-experience
 Status: published
 
-[![257879936](http://mycodee.com/wp-content/uploads/2015/01/257879936-e1430592727830.png){.aligncenter .size-full .wp-image-523 width="200" height="222"}](http://mycodee.com/wp-content/uploads/2015/01/257879936-e1430592727830.png)
+[![257879936](../../static/images/my-toefl-exam-experience/257879936-e1430592727830.png){.aligncenter .size-full .wp-image-523 width="200" height="222"}](../../static/images/my-toefl-exam-experience/257879936-e1430592727830.png)
 
 مرحباً صديقي.. 
 

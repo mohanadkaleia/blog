@@ -5,7 +5,7 @@ Category: Design, howto
 Slug: howto-design-your-log
 Status: published
 
-[![codeit](http://mycodee.com/wp-content/uploads/2013/05/codeit-300x61.png){.aligncenter .size-medium .wp-image-204 width="300" height="61"}](http://mycodee.com/wp-content/uploads/2013/05/codeit.png)
+[![codeit](../../static/images/howto-design-your-log/codeit-300x61.png){.aligncenter .size-medium .wp-image-204 width="300" height="61"}](../../static/images/howto-design-your-log/codeit.png)
 
 بعد أن قمت بإنشاء مدونتي فكرت بتصميم شعار للمدونة، حلو شعاري؟!!، وبهذه المناسبة أحب أن أقدم بعض النصائح في تصميم الشعارات:
 

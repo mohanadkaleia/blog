@@ -6,7 +6,7 @@ Tags: bootloader, bootrec, No SLIC, repair
 Slug: windows-no-longer-boots
 Status: published
 
-[![IMG-20140309-WA0002](http://mycodee.com/wp-content/uploads/2014/03/IMG-20140309-WA0002-300x225.jpg){.aligncenter .size-medium .wp-image-365 width="300" height="225"}](http://mycodee.com/wp-content/uploads/2014/03/IMG-20140309-WA0002.jpg)
+[![IMG-20140309-WA0002](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002-300x225.jpg){.aligncenter .size-medium .wp-image-365 width="300" height="225"}](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002.jpg)
 
 [من فترة واجهتني مشكلة أن الويندوز 7 لم يعد يستطيع الإقلاع ولم يعد يستطيع الدخول إلى الويندوز، وتظهر الخيارات التالية:]{style="line-height: 1.6em;"}
 

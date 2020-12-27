@@ -32,7 +32,7 @@ PHPMyAdmin
 [Valentina Studio]{style="color:#800080;"}  {#valentina-studio style="padding-bottom: 5px; margin: 10px 0px; line-height: 26px; font-size: 26px; color: rgb(85, 85, 85); font-family: Optima, Lucida, 'MgOpen Cosmetica', 'Lucida Sans Unicode', sans-serif;"}
 ------------------------------------------
 
-[![Icon.175x175-75](http://mycodee.com/wp-content/uploads/2014/06/Icon.175x175-75.png){.aligncenter .size-full .wp-image-410 width="175" height="175"}](http://mycodee.com/wp-content/uploads/2014/06/Icon.175x175-75.png)
+[![Icon.175x175-75](../../static/images/database-managment-tools/Icon.175x175-75.png){.aligncenter .size-full .wp-image-410 width="175" height="175"}](../../static/images/database-managment-tools/Icon.175x175-75.png)
 
 يعتبر من بين إحدى أفضل الأدوات للتعامل مع قواعد البيانات، بدأت باستعماله مؤخراً وقد أعجبني كثيراً، يوجد منه نسخة مجانية ونسخة مدفوعة، يمكن مشاهدة كافة الميزات وتحميله من موقعه <http://www.valentina-db.com/>.
 
@@ -48,22 +48,22 @@ PHPMyAdmin
 
 -   لم أكتشف عيوبه حتى الآن.
 
-[![1397226922schema\_column\_view](http://mycodee.com/wp-content/uploads/2014/06/1397226922schema_column_view-300x150.png){.aligncenter .size-medium .wp-image-411 width="300" height="150"}](http://mycodee.com/wp-content/uploads/2014/06/1397226922schema_column_view.png)
+[![1397226922schema\_column\_view](../../static/images/database-managment-tools/1397226922schema_column_view-300x150.png){.aligncenter .size-medium .wp-image-411 width="300" height="150"}](../../static/images/database-managment-tools/1397226922schema_column_view.png)
 
-[![Valentina-Studio\_9](http://mycodee.com/wp-content/uploads/2014/06/Valentina-Studio_9-300x178.jpg){.aligncenter .size-medium .wp-image-412 width="300" height="178"}](http://mycodee.com/wp-content/uploads/2014/06/Valentina-Studio_9.jpg)
+[![Valentina-Studio\_9](../../static/images/database-managment-tools/Valentina-Studio_9-300x178.jpg){.aligncenter .size-medium .wp-image-412 width="300" height="178"}](../../static/images/database-managment-tools/Valentina-Studio_9.jpg)
 
  
 
 [HeidiSQL]{style="color:#800080;"} 
 ----------------------------------
 
-[![heidisql\_logo](http://mycodee.com/wp-content/uploads/2014/06/heidisql_logo.png){.aligncenter .size-full .wp-image-414 width="260" height="66"}](http://mycodee.com/wp-content/uploads/2014/06/heidisql_logo.png)
+[![heidisql\_logo](../../static/images/database-managment-tools/heidisql_logo.png){.aligncenter .size-full .wp-image-414 width="260" height="66"}](../../static/images/database-managment-tools/heidisql_logo.png)
 
 أداة جميلة جداً ومجانية بالكامل ومفتوحة المصدر، يمكنها التعامل مع قواعد بيانات من نوعMysql و MSSQL، تعمل فقط على بيئة ويندوز :(
 
 تعتبر الأداة موجهة لبيئة desktop، يمكنها تصدير واستيراد البيانات، لمعرفة المزيد من المزايا أو لتحميل هذه الأداة يمكن ذلك من خلال موقعها <http://www.heidisql.com/>
 
-[![host\_commandstats](http://mycodee.com/wp-content/uploads/2014/06/host_commandstats-300x212.png){.aligncenter .size-medium .wp-image-416 width="300" height="212"}](http://mycodee.com/wp-content/uploads/2014/06/host_commandstats.png)[![view\_editor](http://mycodee.com/wp-content/uploads/2014/06/view_editor-300x244.png){.aligncenter .size-medium .wp-image-415 width="300" height="244"}](http://mycodee.com/wp-content/uploads/2014/06/view_editor.png)
+[![host\_commandstats](../../static/images/database-managment-tools/host_commandstats-300x212.png){.aligncenter .size-medium .wp-image-416 width="300" height="212"}](../../static/images/database-managment-tools/host_commandstats.png)[![view\_editor](../../static/images/database-managment-tools/view_editor-300x244.png){.aligncenter .size-medium .wp-image-415 width="300" height="244"}](../../static/images/database-managment-tools/view_editor.png)
 
 <div>
 

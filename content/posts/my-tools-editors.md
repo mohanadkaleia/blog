@@ -5,7 +5,7 @@ Category: Uncategorized
 Slug: my-tools-editors
 Status: published
 
-[![Brand-Marketing-Tools](http://mycodee.com/wp-content/uploads/2013/05/Brand-Marketing-Tools-300x200.jpg){.aligncenter .size-medium .wp-image-235 width="300" height="200"}](http://mycodee.com/wp-content/uploads/2013/05/Brand-Marketing-Tools.jpg)
+[![Brand-Marketing-Tools](../../static/images/my-tools-editors/Brand-Marketing-Tools-300x200.jpg){.aligncenter .size-medium .wp-image-235 width="300" height="200"}](../../static/images/my-tools-editors/Brand-Marketing-Tools.jpg)
 
 [كل شخص صاحب مهنة يعتمد على مجموعة من الأدوات التي تلازمه في عمله، كذلك الأمر لمهندس الحواسيب أو المبرمج فإنه يحتاج ويعمل على مجموعة من الأدوات التي تساعده على أداه مهامه بسرعة ويسر. في سلسلة مقالات أدواتي سأسرد فيها الأدوات التي تساعدني على العمل في كل المجالات التي عملت بها، ابتداءاً من الأعمال البرمجية إلى الشبكات وحتى الدارات الكهربائية التي قمت بتصميمها.]{style="font-size:16px;"}
 

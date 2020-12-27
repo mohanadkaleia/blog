@@ -6,7 +6,7 @@ Tags: edit content type, token tweak
 Slug: drupal-problem-unable-to-load-content-type-edit-page
 Status: published
 
-[![drupal-logo](http://mycodee.com/wp-content/uploads/2013/06/drupal-logo.gif){.aligncenter .size-full .wp-image-286 width="200" height="200"}](http://mycodee.com/wp-content/uploads/2013/06/drupal-logo.gif)
+[![drupal-logo](../../static/images/drupal-problem-unable-to-load-content-type-edit-page/drupal-logo.gif){.aligncenter .size-full .wp-image-286 width="200" height="200"}](../../static/images/drupal-problem-unable-to-load-content-type-edit-page/drupal-logo.gif)
 
 [بقلم م.مهند شب قلعية.]{style="background-color:#D3D3D3;"}
 
@@ -14,7 +14,7 @@ Status: published
 
 ، كما في الصورة التالية:
 
-[![auto\_nodetitle](http://mycodee.com/wp-content/uploads/2013/06/auto_nodetitle.jpg){.aligncenter .size-full .wp-image-285 width="597" height="457"}](http://mycodee.com/wp-content/uploads/2013/06/auto_nodetitle.jpg)
+[![auto\_nodetitle](../../static/images/drupal-problem-unable-to-load-content-type-edit-page/auto_nodetitle.jpg){.aligncenter .size-full .wp-image-285 width="597" height="457"}](../../static/images/drupal-problem-unable-to-load-content-type-edit-page/auto_nodetitle.jpg)
 
 [الحل:]{style="color:#FF8C00;"} 
 -------------------------------
