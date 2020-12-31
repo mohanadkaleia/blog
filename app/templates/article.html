@@ -11,7 +11,7 @@
       </label>
     </div>
     
-    <div class="article-content" dir="{{post.direction}}">      
+    <div class="article-content" dir="{{post.direction}}" {{ 'style=text-align:right;' if post.direction == 'rtl' else '' }}>      
       {{post.content}}
     </div>
     
