@@ -6,9 +6,8 @@
     <div class="article-meta text-center">
       <label>Date:</label> {{post['date']}} | 
       <label>Category:</label> {{post['category']}} |
-      <label>Tags: {{post['tags']}}
-        
-      </label>
+      <label>Tags: {{post['tags']}}</label> |
+      <label>Auther: {{post['author']}}</label>
     </div>
     
     <div class="article-content" dir="{{post.direction}}" {{ 'style=text-align:right;' if post.direction == 'rtl' else '' }}>      
