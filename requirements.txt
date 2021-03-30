@@ -9,7 +9,7 @@ langdetect==1.0.8
 Markdown==3.2.2
 MarkupSafe==1.1.1
 micawber==0.5.1
-Pygments==2.7.1
+Pygments==2.7.4
 six==1.15.0
 soupsieve==2.0.1
 supervisor==4.2.1
