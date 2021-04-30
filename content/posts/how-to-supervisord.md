@@ -1,4 +1,4 @@
-Title: High Availability with Supervisord
+Title: [How to] Supervisord
 Date: 2020-12-29
 Author: Mohanad Kaleia
 Category: Software Engineering
