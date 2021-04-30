@@ -3,7 +3,7 @@ Date: 2020-12-29
 Author: Mohanad Kaleia
 Category: Software Engineering
 Tags: supervisord, availability
-Slug: high-availability-with-supervisord
+Slug: how-to-supervisord
 Direction: rtl
 Cover: ../../static/images/high-availability-with-supervisord/supervisord.png
 
