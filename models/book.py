@@ -9,48 +9,52 @@ from markdown.extensions.extra import ExtraExtension
 
 
 class ErrNotFound(Exception):
-	pass
+    pass
 
 
 class ErrInvalidFormat(Exception):
-	pass
+    pass
+
 
 class ErrInvalidName(Exception):
-	pass
+    pass
 
 
-CONTENT_DIR = 'content/books'
+CONTENT_DIR = "content/books"
 
 
-def get(name=""):		
-	if not name:
-		raise ErrInvalidName('Please provide a book name')
+def get(name=""):
+    if not name:
+        raise ErrInvalidName("Please provide a book name")
 
-	# Parse the entry file, the file should follow the following template:
-	# key: value	
-	with open(f"{CONTENT_DIR}/{name}.md", "r", encoding="utf-8") as input_file:
-		text = input_file.read()
-	
-	hilite = CodeHiliteExtension(linenums=False, css_class='highlight')
-	extras = ExtraExtension()
-	md = markdown.Markdown(extensions=['meta', 'fenced_code', hilite, extras], output_format='html5')	
-	html = md.convert(text)
-		
-	meta = {key: value[0] for key, value in md.Meta.items()}
-	body = {'content': html}
+    # Parse the entry file, the file should follow the following template:
+    # key: value
+    with open(f"{CONTENT_DIR}/{name}.md", "r", encoding="utf-8") as input_file:
+        text = input_file.read()
 
-	return {**meta, **body}
+    hilite = CodeHiliteExtension(linenums=False, css_class="highlight")
+    extras = ExtraExtension()
+    md = markdown.Markdown(
+        extensions=["meta", "fenced_code", hilite, extras], output_format="html5"
+    )
+    html = md.convert(text)
+
+    meta = {key: value[0] for key, value in md.Meta.items()}
+    body = {"content": html}
+
+    return {**meta, **body}
+
 
 def all():
-	books = []
-	
-	files = os.listdir(CONTENT_DIR)
+    books = []
 
-	for file in files:
-		
-		if file[-3:] != '.md':
-			continue
-		
-		books.append(get(file[:-3]))
+    files = os.listdir(CONTENT_DIR)
 
-	return books
+    for file in files:
+
+        if file[-3:] != ".md":
+            continue
+
+        books.append(get(file[:-3]))
+
+    return books
