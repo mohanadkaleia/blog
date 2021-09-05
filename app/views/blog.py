@@ -70,3 +70,8 @@ def post(slug):
 def contact():
     log.info("Request /contact")
     return "mohanad@kaleia.io"
+
+
+@app.route("/mentorship")
+def mentorship():
+    return "If you are undergrad or junior software engineer and need a mentor, feel free to shoot me an email mohanad.kaleia[at]gmail[dot]com ✌️"
