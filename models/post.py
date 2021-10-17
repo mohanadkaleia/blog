@@ -40,7 +40,14 @@ def get(name=""):
     hilite = CodeHiliteExtension(linenums=False, css_class="highlight")
     extras = ExtraExtension()
     md = markdown.Markdown(
-        extensions=["meta", "fenced_code", hilite, extras], output_format="html5"
+        extensions=[
+            "markdown_captions",
+            "meta",
+            "fenced_code",
+            hilite,
+            extras,
+        ],
+        output_format="html5",
     )
     html = md.convert(text)
 

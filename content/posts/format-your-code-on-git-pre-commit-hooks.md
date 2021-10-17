@@ -7,10 +7,9 @@ Slug: format-your-code-on-git-pre-commit-hooks
 Status: published
 Cover: https://media.giphy.com/media/LQ3yYk351QJgm4rQwg/giphy.gif
 
-![This is taken from Slam Dunk when Hanamichi Sakuragi got his new fancy shoes kinda not related to this article but I don’t care 😛](https://media.giphy.com/media/LQ3yYk351QJgm4rQwg/giphy.gif)
-
-
 Code formatting and linting is one of the essential part in writing a clean code. Instead of wasting lots of time doing it manually or to waste other people’s time reviewing ugly code. You MUST use some automation tools that does the job for you! (yay for automation) 
+
+![This gif is taken from Slam Dunk when Hanamichi Sakuragi got his new fancy shoes kinda not related to this article but I don’t care 😛](https://media.giphy.com/media/LQ3yYk351QJgm4rQwg/giphy.gif)
 
 This article will be targeting Python coding flow, same ideas may be applied of course to other languages like Go or Javascript, but we gonna use tools written for Python.
 
