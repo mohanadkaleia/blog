@@ -1,5 +1,5 @@
 Title: format your code on git pre-commit hooks
-Date: 2021-0610-17
+Date: 2021-10-17
 Author: mohanad
 Category: Howto
 Tags: python, git, lint
