@@ -5,7 +5,7 @@ Category: Howto
 Tags: proxy, localhost, webserver, tunneling
 Slug: how-to-expose-your-localhost-to-the-internet
 Status: published
-Cover: ![](../../static/images/how-to-expose-localhost/tunneling.png)
+Cover: ../../static/images/how-to-expose-localhost/tunneling.png
 
 
 
@@ -22,7 +22,7 @@ In this blog, I will walk you through how to host and expose your web services l
 # How it works?
 Lets first take a look at the following diagram. This really a representation of how to expose your local laptop to the internet in a way to allow users to access it.
 
-![](../../app/static/images/how-to-expose-localhost/tunneling.png)
+![](../../static/images/how-to-expose-localhost/tunneling.png)
 
 Here is the sequence, 
 
@@ -71,6 +71,7 @@ To install it follow the installation guide [here](https://boringproxy.io/instal
 Lets start by setting up the proxy server (the one in my case on AWS). You only need to actually run the binary you downloaded, like this:
 
 ```
+:::python
 ./boringproxy-linux-x86_64 server -admin-domain bp.kaleia.io 
 ```
 This is just an example, of course you will need to change it based on the domain name you have. the `bp.kaleia.io` will be used to access `boringproxy` admin page. 
@@ -78,6 +79,7 @@ Executing the above command, should print a token to be used when authorizing th
 
 Similarly,  run boring proxy on you local machine, by doing something like this:
 ```
+:::python
 ./boringproxy client \
     -server <server> -user <user> -token <token> -client-name <client-name>
 ```
@@ -91,7 +93,7 @@ Hopefully, everything is working so far for you, if not I recommend watching som
 
 Now, we have boringproxy running on both the server and the client. We need to configure the server to redirect all requests coming on our domain to be served by the client (the local server). This can be done by navigating to the boringproxy admin page, in my case it is bp.kaleia.io. 
 
-![](../../app/static/images/how-to-expose-localhost/boring-proxy-admin.png)
+![](../../static/images/how-to-expose-localhost/boring-proxy-admin.png)
 
 Isn't neat interface 🤩.. anyway, add the domain name you want your proxyserver to serve, for example, in my case it is `mohanad.kaleia.io` choose the client name you just entered when you setup the client. Leave the client address to localhost and set whatever port number you are using in your client (for example I’m serving my website throughout port 5000). That’s it, hit submit and you should be done! 
 
