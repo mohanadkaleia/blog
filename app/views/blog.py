@@ -69,7 +69,7 @@ def post(slug):
 @app.route("/contact")
 def contact():
     log.info("Request /contact")
-    return "mohanad@kaleia.io"
+    return "mohanadkaleia@gmail.com"
 
 
 @app.route("/mentorship")
