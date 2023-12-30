@@ -29,7 +29,7 @@ def index():
 def blog():
     log.info("Request /blog")
     posts = models.post.all()
-    return render_template("blog_2_0.html", posts=posts, config=config)
+    return render_template("blog.html", posts=posts, config=config)
 
 
 @app.route("/books")
