@@ -1,13 +1,28 @@
-{% extends "base.html" %} {% block title %} {{post['title']}} {% endblock %} {% block content %}
-<div class="row mb-5 bg-white article">
+{% extends "base.html" %} 
+{% block title %} {{post['title']}} {% endblock %} 
+{% block content %}
+<div class="p-3 container about">
+  <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+          <h1>Mohanad's "Blog" 🤓👋</h1> 
+      </div>
+      
+      <div class="links col-sm-12 d-flex justify-content-center">              
+          <a href="/">home</a>
+          <a href="#">blog</a>
+          <a href="https://github.com/mohanadkaleia">github</a>              
+          <a href="https://twitter.com/m_kaleia">twitter</a>                          
+          <a href="https://www.linkedin.com/in/mohanad-kaleia-077a8368/">linkedin</a>              
+      </div>        
+  </div>
+</div>
+
+<div class="row mb-5 article">
   <div class="col-md-12">
-    <h1 class="text-center"> {{post['title']}} </h1>
+    <h1 class="text-left"> {{post['title']}} </h1>
     
-    <div class="article-meta text-center">
-      <label>Date:</label> {{post['date']}} | 
-      <label>Category:</label> {{post['category']}} |
-      <label>Tags: {{post['tags']}}</label> |
-      <label>Auther: {{post['author']}}</label>
+    <div class="article-meta text-left">
+      {{post['date']}}      
     </div>
     
     <div class="article-content" dir="{{post.direction}}" {{ 'style=text-align:right;' if post.direction == 'rtl' else '' }}>      
