@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}{{ config.SITENAME }} | Blog {% endblock %} 
+
+{% block content %}
+  <div class="p-3 container about">
+    <div class="row">
+        <div class="col-sm-12 d-flex justify-content-center">
+            <img src="../static/images/face.png" height="150px"/>
+        </div>
+        
+        <div class="links col-sm-12 d-flex justify-content-center">              
+          <a href="#">home</a>
+          <a href="/blog">blog</a>
+          <a href="https://github.com/mohanadkaleia">github</a>              
+          <a href="https://twitter.com/m_kaleia">twitter</a>                          
+          <a href="https://www.linkedin.com/in/mohanad-kaleia-077a8368/">linkedin</a>              
+        </div>
+
+        <div class="col-sm-12">
+            <p>
+                Hi, it's Mohanad! 👋 .. I'm happy to have you here in my personal space! 😌...
+            
+                I'm a Software Engineer, worked with several startups including 
+                <a href="https://www.gbgplc.com/idscan/" target="_blank">IDscan</a>,
+                <a href="https://omni.co/" target="_blank">Omni</a>, and currently with Coinbase.
+                Oh also co-founded <a href="https://aiinarabic.com" target="_blank">aiinarabic</a>.
+            
+                I enjoy drawing, cycling and all kinds of outdoor activities. I like to read as well although I'm slow like a snail in reading 🐌.
+            </p>
+            
+            <p>
+                In this space, you can expect anything, from techi to totally random posts. Also, books I read and recommend and maybe other useless stuff!.         
+            </p> 
+        </div>
+    </div>
+  </div>
+{% endblock %}

@@ -1,7 +1,5 @@
 # Blog
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
 With no strong reason, I decided to move my own blog from being on WordPress to be a simple Python managed blog, where all posts are written in Markdown format. During this transition, I tried to use Pelican as a static website generator. I found it really interesting, but at the same time a bit limited. So decided to build a very simple blog using Python. I open-sourced this work, so anyone can fork it and build his own blog as well. 
 
 ## Architecture
