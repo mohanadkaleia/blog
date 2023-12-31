@@ -56,9 +56,6 @@ def migrate_article_images(name):
 
 
 def main():
-    # filename = 'create-windows-service-from-an-application.md'
-    # migrate_article_images(filename)
-
     for filename in os.listdir(CONTENT_DIR):
         migrate_article_images(filename)
 

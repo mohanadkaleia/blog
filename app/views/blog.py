@@ -22,7 +22,7 @@ oembed_providers = bootstrap_basic(OEmbedCache())
 def index():
     log.info("Request the main page")
     posts = models.post.all()
-    return render_template("index.html", posts=posts, config=config)
+    return render_template("home.html", posts=posts, config=config)
 
 
 @app.route("/blog")
