@@ -1,3 +1,40 @@
+body {
+    font-family: monospace;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+blockquote p {
+    display: inline;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+  
+footer p {
+    margin-bottom: 0.25rem;
+}
+
+hr {
+    margin-top: 25px;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -38,15 +75,6 @@
     max-width: 40rem;
 }
   
-footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-  
-footer p {
-    margin-bottom: 0.25rem;
-}
-
 .main-content {
     margin-top: 100px;
 }
@@ -59,6 +87,11 @@ a {
 	color: #252525;;
 	text-decoration-thickness: 0.3ex;
 	text-underline-offset: 0.3ex;
+}
+
+time {
+    font-style: italic;
+    color: var(--gray);
 }
 
 .title {
@@ -79,13 +112,12 @@ a {
 }
 
 .article p {
-    line-height: 200%;
-    text-align: justify;
+    /* line-height: 200%;     */
+    line-height: 2.5;
 }
 
 .article-content ul li {
-    line-height: 200%;
-    text-align: justify;
+    line-height: 200%;    
 }
 
 .card {
@@ -106,25 +138,7 @@ a {
     margin-top: 50px;
 }
 
-blockquote {
-    background: #f9f9f9;
-    border-left: 10px solid #ccc;
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "\201C""\201D""\2018""\2019";
-}
 
-blockquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-}
-blockquote p {
-    display: inline;
-}
 
 .highlight pre {
     padding: 10px;
@@ -170,6 +184,3 @@ blockquote p {
     text-align: left;
 }
 
-hr {
-    margin-top: 25px;
-}
