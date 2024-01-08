@@ -50,31 +50,6 @@ hr {
     }
 }
   
-.jumbotron {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 0;
-    background-color: #fff;
-}
-@media (min-width: 768px) {
-    .jumbotron {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
-    }
-}
-  
-.jumbotron p:last-child {
-    margin-bottom: 0;
-}
-  
-.jumbotron h1 {
-    font-weight: 300;
-}
-  
-.jumbotron .container {
-    max-width: 40rem;
-}
-  
 .main-content {
     margin-top: 100px;
 }
@@ -120,25 +95,9 @@ time {
     line-height: 200%;    
 }
 
-.card {
-    border-width: 0px;
-}
-
-.card h1 a {
-    text-decoration: none;
-    line-height: 1.5;
-    font-size: 24px;
-}
-
-.card h1 a mark {
-    color: gray;
-}
-
 .article-content {
     margin-top: 50px;
 }
-
-
 
 .highlight pre {
     padding: 10px;
@@ -170,7 +129,7 @@ time {
 }
 
 .links a:not(:last-child) {
-	padding: 0 12px 0 0;
+	padding: 0 12px 0 0; 
 }
 
 .about p {
