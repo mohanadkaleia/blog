@@ -1,5 +1,5 @@
 Title: Software Engineering Yearly Planning
-Date: 2024-01-19
+Date: Jan 19, 2024
 Author: Mohanad Kaleia
 Category: Software Engineering
 Tags: 
@@ -8,7 +8,7 @@ Status: published
 
 > 💡 "By failing to plan, you are preparing to fail." Benjamin Franklin
 
-The best way to kickoff the new year is to do an adequate planning. In this post, I will dump down my thoughts on planning for software engineering career. Before we can start planning, we need to list a set of criteria or headlines of what we are trying achieve in a year. 
+The best way to kickoff the new year is to do an adequate planning. In this post, I will dump down my thoughts on planning for software engineering career. Before we can start planning, we need to list a set of criteria of what we are trying achieve in a year. 
 
 To find these criteria, try to check the expectations of your role at work, for example if you are a senior software engineer, the role responsibilities can be anything from designing new systems, all the way to mentoring new engineers. Meaning, the planning should contain items to cover these responsibilities.
 

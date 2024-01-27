@@ -1,5 +1,5 @@
 Title: AI in Arabic - The Vision
-Date: 2022-11-05
+Date: Nov 05, 2022
 Author: Mohanad Kaleia
 Category: General
 Tags: AI, AI_in_Arabic, vision

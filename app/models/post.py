@@ -73,6 +73,7 @@ def all():
     posts = []
 
     files = os.listdir(CONTENT_DIR)
+    files.sort(key=lambda x: os.path.getmtime(CONTENT_DIR + "/" + x), reverse=True)
 
     for file in files:
         if file[-3:] != ".md" or file.startswith("."):
@@ -80,7 +81,7 @@ def all():
 
         posts.append(get(file[:-3]))
 
-    return sort(posts)
+    return posts
 
 
 def sort(posts):
