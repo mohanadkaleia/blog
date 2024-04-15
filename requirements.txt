@@ -28,4 +28,4 @@ soupsieve==2.0.1
 supervisor==4.2.1
 toml==0.10.2
 virtualenv==20.25.0
-Werkzeug==2.2.3
+Werkzeug==2.3.8
