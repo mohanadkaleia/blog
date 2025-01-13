@@ -27,5 +27,5 @@ six==1.15.0
 soupsieve==2.0.1
 supervisor==4.2.1
 toml==0.10.2
-virtualenv==20.25.0
+virtualenv==20.26.6
 Werkzeug==3.0.3
