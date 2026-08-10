@@ -11,7 +11,7 @@ gunicorn==22.0.0
 identify==2.2.4
 itsdangerous==1.1.0
 Jinja2==3.1.4
-Markdown==3.2.2
+Markdown==3.8.1
 markdown-captions==2
 MarkupSafe==1.1.1
 micawber==0.5.1
