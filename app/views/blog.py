@@ -1,6 +1,5 @@
 import flask
 import app.models.post as post_model
-import app.models.book as book_model
 import config as cfg
 import app.logger as logger
 
@@ -32,22 +31,6 @@ def blog():
     return render_template("blog.html", posts=posts, config=config)
 
 
-@app.route("/books")
-def books():
-    log.info("Request /books")
-    books = book_model.all()
-    for book in books:
-        content = parse_html(
-            book["content"],
-            oembed_providers,
-            urlize_all=True,
-        )
-
-        book["content"] = Markup(content)
-
-    return render_template("books.html", books=books, config=config)
-
-
 @app.route("/<slug>")
 def post(slug):
     log.info(f"Request /{slug}")
@@ -55,7 +38,9 @@ def post(slug):
     try:
         entry = post_model.get(slug)
     except Exception:
-        return "oops.. I could not find this page!!"
+        # Status matters: /books used to be a real page, so it needs to answer
+        # with a genuine 404 now rather than a 200 that says "not found".
+        return "oops.. I could not find this page!!", 404
 
     content = parse_html(
         entry["content"],
