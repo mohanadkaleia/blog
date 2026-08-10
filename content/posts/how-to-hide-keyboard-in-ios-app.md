@@ -6,7 +6,7 @@ Tags: app, hide, ios, keyboard
 Slug: how-to-hide-keyboard-in-ios-app
 Status: published
 
-[![twitter-keyboard-100056244-large](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large-300x201.png){.aligncenter .size-medium .wp-image-490 width="300" height="201"}](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large.png)
+[![twitter-keyboard-100056244-large](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large-300x201.png)](../../static/images/how-to-hide-keyboard-in-ios-app/twitter-keyboard-100056244-large.png)
 
  
 
@@ -16,13 +16,13 @@ Status: published
 
  
 
-### [أولاً - قم بإنشاء مشروع جديد]{style="color:#800080;"} 
+### أولاً - قم بإنشاء مشروع جديد
 
-قم بإنشاء مشروع جديد من نوع [Single View based وقم بتسمية المشروع بأي اسم مثلاً HideKeyboard، وبعدها قم بسحب عنصر text box من المكتبة.]{style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 13px; line-height: 19.0499992370605px;"}
+قم بإنشاء مشروع جديد من نوع Single View based وقم بتسمية المشروع بأي اسم مثلاً HideKeyboard، وبعدها قم بسحب عنصر text box من المكتبة.
 
 الآن بعد أن أصبح لدينا واجهة تحتوي على حقل نصي يجب علينا أن نقوم بإنشاء outlet في  view controller ونربطه مع هذا الحقل النصي، يمكن القيام بهذا من خلال إظهار Assistant editor واختيار ملف .h، وبعدها نقوم بالضغط على زر control وسحب العنصر إلى قسم interface، كما يجب أن نقوم بتعريف تابع لإخفاء الكيبورد، الآن يجب أن يكون شكل الملف كالتالي:
 
-> ``` {style="padding: 1em; border: 1px dashed rgb(47, 111, 171); color: rgb(0, 0, 0); line-height: 1.1em; background-color: rgb(249, 249, 249);"}
+> ```
 > #import <UIKit/UIKit.h>
 >
 > @interface HideKeyboardViewController : UIViewController 
@@ -34,11 +34,11 @@ Status: published
 
  
 
-### [ثانياً - كتابة الملف التنفيدي .m]{style="color:#800080;"} 
+### ثانياً - كتابة الملف التنفيدي .m
 
 نقوم بفتح الملف التنفيذي implementation file .m، ونقوم بكتابة التابع الذي قمنا بتعريفه سابقاً بحيث يصبح شكل الملف كما يلي:
 
-``` {dir="ltr" style="padding: 1em; border: 1px dashed rgb(47, 111, 171); color: rgb(0, 0, 0); line-height: 1.1em; background-color: rgb(249, 249, 249);"}
+``` {dir="ltr"}
 #import "HideKeyboardViewController.h"
 
 @interface HideKeyboardViewController ()
@@ -63,17 +63,17 @@ Status: published
 
 الآن قم باختيار الحقل النصي الذي قمنا بإضافته مسبقاً text field ثم قم باختيار نافذة connection inspector من الجهة اليمنى، وقم بالنقر على الدائرة على اليمين للحدث Did end on exit واسحبه إلى أسفل View controller  كما هو مبين بالشكل وافلته وقم باختيار التابع HideKeyboardViewController الذي قمنا بكتابته مسبقاً:
 
-[![Xcode\_5\_connection\_to\_viewcontroller](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png){.aligncenter .size-full .wp-image-492 width="796" height="713"}](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png)
+[![Xcode\_5\_connection\_to\_viewcontroller](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png)](../../static/images/how-to-hide-keyboard-in-ios-app/Xcode_5_connection_to_viewcontroller.png)
 
 الآن لو جربنا تشغيل البرنامج إذا نقرنا على الحقل النصي لإظهار الكيبورد يمكننا الآن إخفاءه من خلال النقر على زر Return.
 
  
 
-### [إخفاء الكيبورد من خلال النقر على الخلفية]{style="color:#800080;"} 
+### إخفاء الكيبورد من خلال النقر على الخلفية
 
 الآن قمنا بإخفاء الكيبورد عند النقر على زر Return ولكن من الشائع أيضاً أن يقوم المستخدم بإخفاء الكيبورد عند النقر على أي مكان بالشاشة خارج الكيبورد، يمكننا فعل ذلك أيضاً بسهولة من خلال بناء التابع touchBegan في  التالي:
 
-``` {dir="ltr" style="padding: 1em; border: 1px dashed rgb(47, 111, 171); line-height: 1.1em; background-color: rgb(249, 249, 249);"}
+``` {dir="ltr"}
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
 
     UITouch *touch = [[event allTouches] anyObject];

@@ -5,28 +5,28 @@ Category: maintenance, windows xp
 Slug: stop-0x000000ed-windows-xp-keep-rebooting
 Status: published
 
-![Cat-In-Computer226](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/Cat-In-Computer226.jpg){.aligncenter .size-full .wp-image-333 width="254" height="289"}
+![Cat-In-Computer226](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/Cat-In-Computer226.jpg)
 
  
 
-[بقلم م. مهند شب قلعية]{style="background-color:#D3D3D3;"}
+بقلم م. مهند شب قلعية
 
 مرحباً ... اليوم واجتهني مشكلة وهي أن جهاز كمبيوتر بنظام ويندوز xp يعيد اقلاعه بشكل متكرر بحيث أنه عندما يصل لواجهة الدخول  login screen يقوم بإعادة التشغيل بشكل تكراري، ويطلب مني في كل مرة عند الإقلاع أن اختار بين الإقلاع الطبيعي أو الأقلاع في الوضع الآمن، المهم كل الخيارات تعطينا نفس النتيجة وهي إعادة الإقلاع!!!!
 
-[عند الإقلاع نقوم بضغط الزر F8 ليعطينا خيارات الإقلاع ونختار عدم إعادة الإقلاع في حال حصول مشكلة وهذا الأمر سوف يتيح لنا معرفة رقم الخطأ الذي سبب هذه المشكلة، كما في الشكل التالي:]{style="font-family:arial,helvetica,sans-serif;"}
+عند الإقلاع نقوم بضغط الزر F8 ليعطينا خيارات الإقلاع ونختار عدم إعادة الإقلاع في حال حصول مشكلة وهذا الأمر سوف يتيح لنا معرفة رقم الخطأ الذي سبب هذه المشكلة، كما في الشكل التالي:
 
-[![boot option](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png){.aligncenter .size-full .wp-image-331 width="720" height="400"}](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png)
+[![boot option](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png)](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/boot-option.png)
 
-نقوم بالضغط على خيار "**Disable automatic restart on system failure**" ، بعدها سوف تظهر لنا الشاشة الزرقاء وعليها رقم الخطأ وشرح بسيط عن كيفية الحل (طبعاً لن يفيدنا بشيء !!) كما في الشكل التالي، رقم الخطأ [**0x000000ED unmountable\_boot\_volume** في حال ظهرت لك نفس المشكلة تابع معي قراءة الحل]{style="color: rgb(0, 0, 0); font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif; font-size: 14px; line-height: 18px;"}:
+نقوم بالضغط على خيار "**Disable automatic restart on system failure**" ، بعدها سوف تظهر لنا الشاشة الزرقاء وعليها رقم الخطأ وشرح بسيط عن كيفية الحل (طبعاً لن يفيدنا بشيء !!) كما في الشكل التالي، رقم الخطأ **0x000000ED unmountable\_boot\_volume** في حال ظهرت لك نفس المشكلة تابع معي قراءة الحل:
 
-[![0x000000ED](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png){.aligncenter .size-full .wp-image-332 width="469" height="352"}](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png)
+[![0x000000ED](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png)](../../static/images/stop-0x000000ed-windows-xp-keep-rebooting/0x000000ED-.png)
 
-[سبب المشكلة:]{style="color:#FF8C00;"} 
+سبب المشكلة:
 --------------------------------------
 
 سبب هذه المشكلة غالباً هو وجود أخطاء في بعض القطاعات في الهارد ويجب حلها حتى نتمكن من الدخول لنظام التشغيل والعمل عليه، يمكن أن تظهر هذه المشكلة نتيجة إطفاء جهاز الكمبيوتر بشكل مفاجيء مثل الانقطاع الكهربائي ويمكن أن تكون هذه مؤشرات على اقتراب عطب الهارد لذلك يجب الانتباه على البيانات الهامة فيه  والاحتفاظ دوماً بنسخ احتياطية على هارد خارجي مثلاً.
 
-[كيفية الحل:]{style="color:#FF8C00;"} 
+كيفية الحل:
 -------------------------------------
 
 يمكن حل هذه المشكلة بسهولة يلزمنا لحل المشكلة قرص نظام التشغيل ويندوز xp:

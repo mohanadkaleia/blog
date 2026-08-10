@@ -5,11 +5,11 @@ Category: Servers
 Slug: lamp-server-on-ubuntu
 Status: published
 
-[![lamp](../../static/images/lamp-server-on-ubuntu/lamp.jpg){.aligncenter .size-full .wp-image-241 width="250" height="127"}](../../static/images/lamp-server-on-ubuntu/lamp.jpg)
+[![lamp](../../static/images/lamp-server-on-ubuntu/lamp.jpg)](../../static/images/lamp-server-on-ubuntu/lamp.jpg)
 
 إن كنت من مطوري الويب فلابد وأنك قد سمعت أو احتجت لتحويل جهازك إلى مخدم ويب لاستضافة مشاريعك الخاصة على جهازك المحلي قبل أن تقوم بتصديرهم للسيرفر الرئيسي،  سنشرح الآن كيفية تنصيب LAMP سيرفر على أبونتو، طبعاً LAMP هي اختصار Linux - Apache - Mysql - PHP.
 
-[[الخطوة الأولى - تنصيب Apache:]{.underline}]{style="color:#FF8C00;"} 
+<u>[الخطوة الأولى - تنصيب Apache:</u>]
 ---------------------------------------------------------------------
 
 قم بفتح التيرمينال terminal واكتب فيه التعليمة التالية والتي تقوم بتنصيب الأباتشي:
@@ -18,10 +18,10 @@ Status: published
 
 بعد الانتهاء من تنصيب الأباتشي يمكنك تجريبه من متصفح الويب من خلال كتابة عنوان جهازك المحلي <http://localhost/>، وانظر النتيجة التي ستظهر لك، الصفحة التي ظهرت لك هي الصفحة الرئيسية في الأباتشي ويمكنك تغييرها لاحقاً.
 
-![](http://tech.mobiletod.com/wp-content/uploads/2010/12/Screenshot-7.png "Apache it's work"){.aligncenter} 
+![](http://tech.mobiletod.com/wp-content/uploads/2010/12/Screenshot-7.png "Apache it's work")
 -----------------------------------------------------------------------------------------------------------
 
-[الخطوة الثانية - تنصيب قاعدة البيانات mysql:]{.underline} 
+<u>الخطوة الثانية - تنصيب قاعدة البيانات mysql:</u>
 ----------------------------------------------------------
 
 الآن علينا تنصيب قاعدة البيانات mysql، أيضاً قم بكتابة التعليمة التالية في التيرمينال terminal:
@@ -30,7 +30,7 @@ Status: published
 
 أثناء تنصيب قاعدة البيانات سيطلب منك إدخال كلمة المرور الخاصة بالمستخدم root للقاعدة، قم بإدخالها وتذكرها جيداً.
 
-[الخطوة الثالثة - تنصيب PHP:]{.underline} 
+<u>الخطوة الثالثة - تنصيب PHP:</u>
 -----------------------------------------
 
 لتنصيب PHP قم بإدخال التعليمة التالية في التيرمينال:
@@ -55,48 +55,38 @@ Status: published
 
 وقم بحفظ الملف ثم افتح متصفح الويب وقم بكتابة عنوان جهازك المحلي واتبعه باسم الملف <http://localhost/phpinfo.php> ، يجب أن تظهر لك معلومات عن PHP كما في الصورة التالية:
 
-![](http://tech.mobiletod.com/wp-content/uploads/2010/12/Screenshot-8.png "PHPinfo"){.aligncenter}
+![](http://tech.mobiletod.com/wp-content/uploads/2010/12/Screenshot-8.png "PHPinfo")
 
-<div>
-
- 
-
-</div>
-
-<div>
 
  
 
-</div>
 
-<div>
 
-[PHPMyAdmin:]{.underline} 
+ 
+
+
+
+<u>PHPMyAdmin:</u>
 -------------------------
 
-</div>
 
-<div>
 
 تهانينا الآن أصبح لديك مخدم ويب LAMP وتستطيع البدء بتطوير مشاريعك الخاصة على جهازك فوراً، ولكن قبل الانتهاء سنقوم بتنصيب أداة لإدارة قاعدة البيانات وهذه الأداة هي الأشهر تقريباً لمطوري الويب واسمها PHPMyAdmin، الآن اكتب في التيرمينال التعليمة التالية:
 
-</div>
 
-> ::: {style="text-align: left;"}
-> ***sudo apt-get install phpmyadmin***[ ]{style="line-height: 1.6em;"}
-> :::
+> ***sudo apt-get install phpmyadmin*** 
 
-أثناء التنصيب سيظهر لك نافذة لاختيار مخدم الويب ليتم ضبط الإعدادات عليه قم باختيار [**apache**]{style="color:#FF8C00;"}.
+أثناء التنصيب سيظهر لك نافذة لاختيار مخدم الويب ليتم ضبط الإعدادات عليه قم باختيار **apache**.
 
-[![choose web server](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png){.aligncenter .size-full .wp-image-244 width="664" height="462"}](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png)
+[![choose web server](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png)](../../static/images/lamp-server-on-ubuntu/choose-web-server-.png)
 
  
 
-[بعدها سيطلب منك أن يقوم بضبط قاعدة بيانات من أجل phpMyAdmin مع dbconfig-common قم باختيار [**NO.**]{style="color:#FF8C00;"}]{style="line-height: 1.6em;"}
+بعدها سيطلب منك أن يقوم بضبط قاعدة بيانات من أجل phpMyAdmin مع dbconfig-common قم باختيار [**NO.**]
 
-[![database config](../../static/images/lamp-server-on-ubuntu/database-config.png){.aligncenter .size-full .wp-image-245 width="481" height="122"}](../../static/images/lamp-server-on-ubuntu/database-config.png)
+[![database config](../../static/images/lamp-server-on-ubuntu/database-config.png)](../../static/images/lamp-server-on-ubuntu/database-config.png)
 
-[الآن عليك أن تقوم بنسخ ملف ضبط الإعدادات من خلال كتابة التعليمة التالية في التيرمينال:]{style="line-height: 1.6em;"}
+الآن عليك أن تقوم بنسخ ملف ضبط الإعدادات من خلال كتابة التعليمة التالية في التيرمينال:
 
 > ***sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/***
 

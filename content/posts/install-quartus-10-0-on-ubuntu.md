@@ -12,10 +12,7 @@ to install quartus \|\| 10.0 you will maybe face some problems during installati
 Apparently there is a conflict with the file libX11.so.6. Here is a simple workaround:
 
 -   Add the option --confirm to execute the install script.
-
-```{=html}
 <!-- -->
-```
     sh altera_installer.external.sh --confirm
     Creating directory bin
     Verifying archive integrity... All good.
@@ -24,17 +21,11 @@ Apparently there is a conflict with the file libX11.so.6. Here is a simple worka
     OK to execute: ./altera_installer_gui --gui  ? [Y/n]
 
 -   Before proceeding, in another terminal, go in the same directory than the install script and delete the file ./bin/libX11.so.6.
-
-```{=html}
 <!-- -->
-```
     rm bin/libX11.so.6
 
 -   Now you can proceed.
-
-```{=html}
 <!-- -->
-```
     OK to execute: ./altera_installer_gui --gui  ? [Y/n] Y
     Fontconfig error: "conf.d", line 1: no element found
     Fontconfig warning: line 73: unknown element "cachedir"

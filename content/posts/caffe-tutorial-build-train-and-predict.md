@@ -36,8 +36,7 @@ Data layer
 
 Now to read the data we’ve just imported we need a data layer, that read the data source, the following prototxt represent the input layer:
 
-```
-:::python
+```python
 layer {
   name: "mnist"
   type: "Data"
@@ -71,8 +70,7 @@ Convolutional layer
 -------------------
 
 The first layer in the LeNet after the data layer is the convolution layer, the structure of it is represented as follow:
-```
-:::python
+```python
 layer {
   name: "conv1"
   type: "Convolution"
@@ -102,8 +100,7 @@ Pooling layer
 --------------
 
 In LeNet architecture, a down sampling layer comes right after the convolutional layer, as we can call it Pooling layer, the following protobuf txt represents the pooling layer: 
-```
-:::python
+```python
 layer {
   name: "pool1"
   type: "Pooling"
@@ -124,8 +121,7 @@ Fully Connected layer
 
 The last layer type we need to add into LeNet network is a fully connected layer, where the structure of this layer is represented in the following protobuff txt:
 
-```
-:::python
+```python
 layer {
   name: "ip1"
   type: "InnerProduct"
@@ -152,8 +148,7 @@ ReLU layer
 
 The activation function we are going to use in this network is RelU, defining such a functions is just straight forward in the protobuff format, like the following: 
 
-```
-:::python
+```python
 layer {
   name: "relu1"
   type: "ReLU"
@@ -174,8 +169,7 @@ GREAT!, now we know how to define all needed layers, the only thing we need to d
 
 Data layer → conv layer → pooling layer → Fully connected layer → ReLU → Fully Connected layer → Loss. Now let's write down all of these layers in a file and make sure the format of the file is “**.prototxt**”:
 
-```
-:::python
+```python
 name: "LeNet"
 layer {
   name: "mnist"
@@ -366,8 +360,7 @@ For more information about the caffe’s solver please refer to the following pa
 
 Now we tell how the solver should train the network by defining a prototxt file, you can create new .prototxt file and name it as lenet\_solver.prototxt, then write the following in it:
 
-```
-:::python
+```python
 \# The train/test net protocol buffer definition
 net: "examples/mnist/lenet\_network.prototxt"
 # test\_iter specifies how many forward passes the test should carry out.
@@ -491,8 +484,7 @@ Now after the solver finish training we will have a trained model that can be us
 
 The best answer I was able to get is to use Python interface to predict the class of any new sample. In this section I will show how to use Caffe-python interface to predict new samples, in the caffe root path create new python file, you can name it as predict.py and write the following in it:
 
-```
-:::python
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 import sys
@@ -539,8 +531,7 @@ Notice in the code above we used **deploy.prototxt** for the network architectur
 3.  remove “accuracy” and “loss” layers from the end of the file
 4.  Create input layer in the first of the file, 
 
-```
-:::python
+```python
 layer {
     name: "data"
     type: "Input"
@@ -551,8 +542,7 @@ layer {
 
 5.  We still need a classifier in the end of our network, so create the following layer at the end of the file:
 
-```
-:::python
+```python
 layer {
   name: "loss"
   type: "Softmax"
@@ -563,8 +553,7 @@ layer {
 
 The whole structure is represented as follow:
 
-```
-:::python
+```python
 name: "LeNet"
 layer {
     name: "data"

@@ -5,9 +5,9 @@ Category: Application, GNULinux, howto
 Slug: working-with-prolog-on-ubuntu	
 Status: published	
 
-[![swipl](../../static/images/working-with-prolog-on-ubuntu/swipl.png){.aligncenter .size-full .wp-image-264 width="170" height="140"}](../../static/images/working-with-prolog-on-ubuntu/swipl.png)	
+[![swipl](../../static/images/working-with-prolog-on-ubuntu/swipl.png)](../../static/images/working-with-prolog-on-ubuntu/swipl.png)
 
-[بقلم: م.مهند شب قلعية.]{style="background-color:#cccccc;"}	
+بقلم: م.مهند شب قلعية.
 
 يوجد العديد من مفسرات لغة البرولوغ على بيئة ويندوز ومنها [visual prolog](http://www.visual-prolog.com/) ، ولكن القليل منها يعمل على بيئة لينوكس، سنتكلم على بيئة [SWI-Prolog](http://www.swi-prolog.org/) بعض ميزات هذه البيئة:	
 
@@ -17,7 +17,7 @@ Status: published
 -   يدعم أنظمة تشغيل WIndows - GUN/Linux - Mac	
 -   ...	
 
-[الخطوة الأولى - تنصيب swi-prolog:]{style="color:#800080;"} 	
+الخطوة الأولى - تنصيب swi-prolog:
 -----------------------------------------------------------	
 
 الآن لننتقل لتنصيب البيئة، أولاً قم بفتح التيرمينال terminal وقم بلصق الأسطر التالية فيها:	
@@ -31,7 +31,7 @@ Status: published
 
 
 
-[الخطوة الثانية - التجربة:]{style="color:#800080;"} 	
+الخطوة الثانية - التجربة:
 ---------------------------------------------------	
 
 لنقم بتجربة البرنامج، قبل أن نجرب البرنامج سنقوم بكتابة ملف يحتوي مجموعة صغيرة جداً من القواعد.. قم بنسخها أو قم بكتابة برنامج الخاص:	
@@ -39,7 +39,7 @@ Status: published
 > traffic\_light(red , no\_cars).  	
 >   	
 > traffic\_light(green , cars).	
-الأسطر السابقة تمثل نظام إشارة مرور بسيط جداً، حيث تعطي إشارة **[حمراء]{style="color:#B22222;"}** في حال عدم تواجد سيارات في الشارع، لتسمح بالمشاة بالمرور، وتعطي إشارة **[خضراء]{style="color:#008000;"}** في حال تواجد سيارات. قم بحفظ الملف وتسميته [basic\_its\_system.pl]{style="font-family: Georgia, Times, 'Times New Roman', serif; font-size: 13px; font-style: italic;"}	
+الأسطر السابقة تمثل نظام إشارة مرور بسيط جداً، حيث تعطي إشارة **حمراء** في حال عدم تواجد سيارات في الشارع، لتسمح بالمشاة بالمرور، وتعطي إشارة **خضراء** في حال تواجد سيارات. قم بحفظ الملف وتسميته basic\_its\_system.pl
 
 الآن لنقم بتشغيل البرنامج، من التيرمينال نكتب التعليمة التالية **swipl** ستظهر كتابات كتابات**،** ما سنقوم به هو استدعاء الملف الذي كتبناه لنقوم بإجراء استعلامات عليه كما يلي:	
 
@@ -63,9 +63,9 @@ Category: Application, GNULinux, howto
 Slug: working-with-prolog-on-ubuntu	
 Status: published	
 
-[![swipl](../../static/images/working-with-prolog-on-ubuntu/swipl.png){.aligncenter .size-full .wp-image-264 width="170" height="140"}](../../static/images/working-with-prolog-on-ubuntu/swipl.png)	
+[![swipl](../../static/images/working-with-prolog-on-ubuntu/swipl.png)](../../static/images/working-with-prolog-on-ubuntu/swipl.png)
 
-[بقلم: م.مهند شب قلعية.]{style="background-color:#cccccc;"}	
+بقلم: م.مهند شب قلعية.
 
 يوجد العديد من مفسرات لغة البرولوغ على بيئة ويندوز ومنها [visual prolog](http://www.visual-prolog.com/) ، ولكن القليل منها يعمل على بيئة لينوكس، سنتكلم على بيئة [SWI-Prolog](http://www.swi-prolog.org/) بعض ميزات هذه البيئة:	
 
@@ -75,7 +75,7 @@ Status: published
 -   يدعم أنظمة تشغيل WIndows - GUN/Linux - Mac	
 -   ...	
 
-[الخطوة الأولى - تنصيب swi-prolog:]{style="color:#800080;"} 	
+الخطوة الأولى - تنصيب swi-prolog:
 -----------------------------------------------------------	
 
 الآن لننتقل لتنصيب البيئة، أولاً قم بفتح التيرمينال terminal وقم بلصق الأسطر التالية فيها:	
@@ -89,7 +89,7 @@ Status: published
 
 
 
-[الخطوة الثانية - التجربة:]{style="color:#800080;"} 	
+الخطوة الثانية - التجربة:
 ---------------------------------------------------	
 
 لنقم بتجربة البرنامج، قبل أن نجرب البرنامج سنقوم بكتابة ملف يحتوي مجموعة صغيرة جداً من القواعد.. قم بنسخها أو قم بكتابة برنامج الخاص:	
@@ -97,7 +97,7 @@ Status: published
 > traffic\_light(red , no\_cars).  	
 >   	
 > traffic\_light(green , cars).	
-الأسطر السابقة تمثل نظام إشارة مرور بسيط جداً، حيث تعطي إشارة **[حمراء]{style="color:#B22222;"}** في حال عدم تواجد سيارات في الشارع، لتسمح بالمشاة بالمرور، وتعطي إشارة **[خضراء]{style="color:#008000;"}** في حال تواجد سيارات. قم بحفظ الملف وتسميته [basic\_its\_system.pl]{style="font-family: Georgia, Times, 'Times New Roman', serif; font-size: 13px; font-style: italic;"}	
+الأسطر السابقة تمثل نظام إشارة مرور بسيط جداً، حيث تعطي إشارة **حمراء** في حال عدم تواجد سيارات في الشارع، لتسمح بالمشاة بالمرور، وتعطي إشارة **خضراء** في حال تواجد سيارات. قم بحفظ الملف وتسميته basic\_its\_system.pl
 
 الآن لنقم بتشغيل البرنامج، من التيرمينال نكتب التعليمة التالية **swipl** ستظهر كتابات كتابات**،** ما سنقوم به هو استدعاء الملف الذي كتبناه لنقوم بإجراء استعلامات عليه كما يلي:	
 

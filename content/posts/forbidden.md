@@ -5,12 +5,9 @@ Category: News
 Slug: forbidden
 Status: published
 
-::: {dir="rtl"}
-<div>
 
 ![](http://www.no403.net/ProgramImages/SlideLogo.jpg)
 
-</div>
 
 السلام عليكم ورحمة الله وبركاته  
 تم بحمد الله إطلاق موقع [!forbidden](http://www.no403.net/) والذي يمكّنك من تحميل البرامج الممنوعة عن بعض الدول (مثل سوريا - السودان - اليمن..) ، حيث يمكنك طلب أو تحميل البرامج من خلال هذا الموقع...
@@ -28,4 +25,3 @@ Status: published
 [www.no403.net](http://www.no403.net/)
 
 أرجو أن يكون الموقع مفيداً...
-:::

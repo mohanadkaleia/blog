@@ -5,7 +5,7 @@ Category: Code
 Slug: intorduction-to-parallel-programming-with-MPI
 Status: published
 
-![example 2-3](../../static/images/intorduction-to-parallel-programming-with-MPI/example-2-3-300x204.png){.aligncenter .size-medium .wp-image-501 width="300" height="204"}
+![example 2-3](../../static/images/intorduction-to-parallel-programming-with-MPI/example-2-3-300x204.png)
 
  
 
@@ -19,11 +19,11 @@ Status: published
 
  
 
-[![MPI Programming](../../static/images/intorduction-to-parallel-programming-with-MPI/MPI-Programming.png){.aligncenter .size-full .wp-image-503 width="431" height="559"}](https://www.dropbox.com/s/lll55663694otpb/MPI%20parallel%20programming.pdf?dl=0)
+[![MPI Programming](../../static/images/intorduction-to-parallel-programming-with-MPI/MPI-Programming.png)](https://www.dropbox.com/s/lll55663694otpb/MPI%20parallel%20programming.pdf?dl=0)
 
 ساهم في هذا الكتاب:
 
-[م. تولاي شاهين]{style="font-size: 13.3333330154419px; line-height: 20.8000011444092px;"}
+م. تولاي شاهين
 
 م. مهند شب قلعية
 

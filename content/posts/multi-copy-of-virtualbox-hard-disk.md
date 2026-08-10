@@ -11,6 +11,6 @@ To copy a hard disk of virtual box you have to change uuid to make it available 
 
 you can change it in UBUNTU by typing this command in the terminal
 
-**[VBoxManage internalcommands sethduuid  VBMachine.vdi]{style="color:#008000;"}**
+**VBoxManage internalcommands sethduuid  VBMachine.vdi**
 
 Enjoy it..

@@ -5,7 +5,7 @@ Category: Design
 Slug: new-logo
 Status: published
 
-[![mycodee](../../static/images/new-logo/mycodee.png){.aligncenter .size-full .wp-image-377 width="300" height="200"}](../../static/images/new-logo/mycodee.png)
+[![mycodee](../../static/images/new-logo/mycodee.png)](../../static/images/new-logo/mycodee.png)
 
 لقد قمت بتغيير شعار مدونتي الشخصية .. كما قمت بتغيير وتعديل تصميم المدونة
 

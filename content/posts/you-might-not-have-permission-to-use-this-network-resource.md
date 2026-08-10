@@ -5,22 +5,22 @@ Category: maintenance, Servers
 Slug: you-might-not-have-permission-to-use-this-network-resource
 Status: published
 
-[![ITvenn](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn-300x208.png){.aligncenter .size-medium .wp-image-280 width="300" height="208"}](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn.png)
+[![ITvenn](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn-300x208.png)](../../static/images/you-might-not-have-permission-to-use-this-network-resource/ITvenn.png)
 
-[بقلم: م. مهند شب قلعية]{style="background-color:#D3D3D3;"}
+بقلم: م. مهند شب قلعية
 
 قبل البدء بالحديث عن المشكلة أحب أن أوضح بنية الشبكة الموجودة، الشبكة تتألف من سيرفر Windows server 2008 وأجهزة clients تتنوع أنظمتها بين windows 7 و windows xp، طبعاً يوجد Domain controller و active directory، للتحكم بالمستخدمين وصلاحياتهم على المجلدات.
 
-[[ماهي المشكلة؟!!]{style="font-size:20px;"}]{style="color:#FF8C00;"} 
+[ماهي المشكلة؟!!]
 ====================================================================
 
-[المشكلة التي ظهرت هي عدم قدرة أحد الأجهزة بنظام ويندوز 7 على الوصول لموارد السيرفر من المجلدات المشاركة مع العلم أن الجهاز يستطيع الوصول للسيرفر من خلال عملية ping سواء للعنوان المنطقي أو لاسم السيرفر، ويمكن لهذا الجهاز الوصول لموارد الشبكة الأخرى غير السيرفر مثل الوصول للمجلدات المشاركة على أجهزة أخرى.]{style="font-size: 13px;"}
+المشكلة التي ظهرت هي عدم قدرة أحد الأجهزة بنظام ويندوز 7 على الوصول لموارد السيرفر من المجلدات المشاركة مع العلم أن الجهاز يستطيع الوصول للسيرفر من خلال عملية ping سواء للعنوان المنطقي أو لاسم السيرفر، ويمكن لهذا الجهاز الوصول لموارد الشبكة الأخرى غير السيرفر مثل الوصول للمجلدات المشاركة على أجهزة أخرى.
 
-[ملاحظة في اللحظات الأولى لإقلاع الجهاز يمكنه الوصول لموارد السيرفر، ولكن بعد دقائق لا يعود قادر على الوصول وتظهر رسالة الخطأ التالية:]{style="font-size: 13px;"}
+ملاحظة في اللحظات الأولى لإقلاع الجهاز يمكنه الوصول لموارد السيرفر، ولكن بعد دقائق لا يعود قادر على الوصول وتظهر رسالة الخطأ التالية:
 
-[![8117.SNAGHTML127e72fe\_thumb\_7E43F3AC](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC-e1374668502566.png){.aligncenter .size-full .wp-image-324 width="600" height="195"}](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC.png)
+[![8117.SNAGHTML127e72fe\_thumb\_7E43F3AC](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC-e1374668502566.png)](../../static/images/you-might-not-have-permission-to-use-this-network-resource/8117.SNAGHTML127e72fe_thumb_7E43F3AC.png)
 
-[حل المشكلة:]{style="color:#FF8C00;"} 
+حل المشكلة:
 =====================================
 
 بداية قم بإيقاف firewall سواء من مضاد الفايروسات أو الافتراضي الموجود في ويندوز. فربما تكون المشكلة في الفايروول، في حال لم ينجح الأمر قم بمشاهدة الفيديو التالي، فيه الطريقة التي نجحت معي لحل هذه المشكلة:

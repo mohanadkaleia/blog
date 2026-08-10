@@ -6,26 +6,26 @@ Tags: bootloader, bootrec, No SLIC, repair
 Slug: windows-no-longer-boots
 Status: published
 
-[![IMG-20140309-WA0002](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002-300x225.jpg){.aligncenter .size-medium .wp-image-365 width="300" height="225"}](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002.jpg)
+[![IMG-20140309-WA0002](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002-300x225.jpg)](../../static/images/windows-no-longer-boots/IMG-20140309-WA0002.jpg)
 
-[من فترة واجهتني مشكلة أن الويندوز 7 لم يعد يستطيع الإقلاع ولم يعد يستطيع الدخول إلى الويندوز، وتظهر الخيارات التالية:]{style="line-height: 1.6em;"}
+من فترة واجهتني مشكلة أن الويندوز 7 لم يعد يستطيع الإقلاع ولم يعد يستطيع الدخول إلى الويندوز، وتظهر الخيارات التالية:
 
-> [Booting Windows 7/Vista/Server (No SLIC - Pointer)]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Booting Windows 7/Vista/Server (No SLIC - Pointer)
 >
-> [Booting Windows 7/Vista/Server (No SLIC)]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Booting Windows 7/Vista/Server (No SLIC)
 >
-> [Booting Windows NT/2000/XP]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Booting Windows NT/2000/XP
 >
-> [Booing Enter Command Line ]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Booing Enter Command Line 
 
-[سبب المشكلة]{style="color:#800080;"} 
+سبب المشكلة
 -------------------------------------
 
 بشكل عام تظهر هذه المشكلة بسبب نسخ الويندوز الغير شرعية، فعندما تتم عملية activate أو تحديث يمكن أن تظهر هذه المشكلة ولا يعود الجهاز قادر على الدخول لبيئة ويندوز، حيث يعطب محمل الإقلاع boot loader، ولحل هذه المشكلة يجب علينا إصلاح محمل الإقلاع boot loader باستخدام قرص ويندوز في نمط الإصلاح repair.
 
  
 
-[حل المشكلة]{style="color:#800080;"} 
+حل المشكلة
 ------------------------------------
 
 1.  قم بوضع قرص windows 7 في السواقة.
@@ -33,14 +33,14 @@ Status: published
 3.  بعد أن تقلع من القرص قم باختيار اللغة والوقت وقم بالضغط على زر next
 4.  إضغط على زر repair your computer
 5.  (الآن سيقوم بعملية تحديد أنظمة التشغيل الموجودة لديك) قم باختيار نظام التشغيل.
-6.  الآن من خيارات الإصلاح قم باختيار آخر خيار [Command Prompt]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+6.  الآن من خيارات الإصلاح قم باختيار آخر خيار Command Prompt
 7.  قم الآن بكتابة التعليمات التالية (بعد كل تعليمة قم بضغط زر enter):
 
-> [Bootrec.exe /FixMbr]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Bootrec.exe /FixMbr
 >
-> [Bootrec.exe /FixBoot]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Bootrec.exe /FixBoot
 >
-> [Bootrec.exe /RebuildBcd]{style="color: rgb(0, 0, 0); font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif; font-size: 13px; line-height: normal; background-color: rgb(245, 245, 255);"}
+> Bootrec.exe /RebuildBcd
 
 بعد الانتهاء من تنفيذ هذه التعليمات بنجاح قم بإغلاق موجه الأوامر command prompt وبعدها قم بعمل إعادة تشغيل للجهاز.
 

@@ -22,7 +22,7 @@ The rest of this post I will explain the proposed architecture along with the co
 
 ------------------------------------------------------------------------
 
-The architecture {#4fdb}
+The architecture
 ================
 
 ![](https://miro.medium.com/max/3416/0*1-T-XOXnvBSd8ubK.png)
@@ -31,7 +31,7 @@ In this system, we have three main components, the weather stations, server apps
 
 ------------------------------------------------------------------------
 
-Weather Station {#231e}
+Weather Station
 ===============
 
 The station (client) is a Linux box connected to a weather station. This weather station reads the temperature, humidity, wind speed, and other information related to the weather. We need to read the weather data every x amount of time and send it immediately to the server, if the internet connection between the station and the server is not available we should store the messages locally and send them once the internet is back.
@@ -44,7 +44,7 @@ I will talk more about message queue implementation later.
 
 ------------------------------------------------------------------------
 
-Server-side {#51dc}
+Server-side
 ===========
 
 The server side consists of two main components, the message queue WebSocket app, and the auth app. The message queue app is used to receive messages from the clients and store them in the db. The auth app is used to authenticate the clients before they can send any message.
@@ -59,7 +59,7 @@ The idea of JWT auth is very simple, the client sends a post request to the serv
 
 ------------------------------------------------------------------------
 
-Datastore {#0cf4}
+Datastore
 =========
 
 To store the data it is good to use a reliable engine like Postgresql or Mysql. For me, since the purpose of this demo was not for production I used a document-based database called [tinydb](https://tinydb.readthedocs.io/en/latest/index.html) (it works!) I created two tables one for the weather and the other one for the users. Basically, just dump the weather messages coming from the client into the weather table in its JSON format. Now, let's move to the implementation part:  
@@ -68,7 +68,7 @@ To store the data it is good to use a reliable engine like Postgresql or Mysql. 
 
 ------------------------------------------------------------------------
 
-Implementation {#dfa5}
+Implementation
 ==============
 
 Here is the stack I used for the implementation:
@@ -78,7 +78,7 @@ Here is the stack I used for the implementation:
 -   **Python**
 -   [**Tinydb**](https://tinydb.readthedocs.io/en/latest/index.html): document-based database, not recommended for production at all, I used for the quick demo only
 
-Requirements {#0999}
+Requirements
 ============
 
 Before I start the implementation, you will need to have the following stuff installed, Python, [RabbitMQ server.](https://www.rabbitmq.com/download.html) The rest of the libraries you can install in your virtual env.
@@ -97,7 +97,7 @@ I structured the project in a very simple way:
 
 ------------------------------------------------------------------------
 
-Client {#5304}
+Client
 ======
 ```
 import random
@@ -225,7 +225,7 @@ I don’t want to bore you with the code explanation, pretty sure you can read i
 
 ------------------------------------------------------------------------
 
-Server {#15df}
+Server
 ======
 
 Cool.. we reached the server-side, it is simpler than the client-side I think :)
@@ -311,7 +311,7 @@ In the code above we created post /login endpoint, it authorizes the name and pa
 
 ------------------------------------------------------------------------
 
-Scale it up {#31dc}
+Scale it up
 ===========
 
 The question now, how to scale this design in case we need to. To answer this question we need first to identify the bottleneck of the system. Is it the client, the WebSocket app, the Auth or the datastore. In case we got 1M clients all of them are sending messages to the server.. you guessed it .. its the WebSocket app.
@@ -320,7 +320,7 @@ To scale up the server we can simply replicate the server, and the auth app will
 
 ![](https://miro.medium.com/max/3276/0*ISzRJQBT3Am6oqub.png)
 
-Run the app {#1f99}
+Run the app
 ===========
 
 If you want to run the app you can pull it from [here](https://github.com/mohanadkaleia/rwis)
@@ -341,7 +341,7 @@ Note: Rabbitmq server should be running as well.
 
 ------------------------------------------------------------------------
 
-Conclusion {#9b12}
+Conclusion
 ==========
 
 To wrap up, in this post we illustrated an architecture design for an IoT system that scales up.

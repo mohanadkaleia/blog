@@ -6,7 +6,7 @@ Tags: disable messages, errors
 Slug: drupal-mudule-disable-messages
 Status: published
 
-![](https://drupal.org/files/issues/drupal_error_0.png){.aligncenter}
+![](https://drupal.org/files/issues/drupal_error_0.png)
 
 كل من تعامل مع يتعامل مع دروبال لابد وأنه قد ظهرت له رسائل خطأ، وبعض هذه المشاكل قد يؤدي حلها لظهور مشاكل أكبر لذلك يفضل تركها ، ولكن في حال تركناها فإن رسالة الخطأ ستبقى ظاهرة، لإزالة رسائل الخطأ من الظهور للمستخدم يمكن استخدام الموديول module التالي [Disable Messages](https://drupal.org/project/disable_messages)
 
