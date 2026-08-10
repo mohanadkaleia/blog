@@ -5,11 +5,11 @@ Category: Application, GNULinux, howto
 Slug: how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs
 Status: published
 
-![Enable-MTP-on-Linux](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/Enable-MTP-on-Linux-300x136.jpg){.aligncenter .size-medium .wp-image-171 width="300" height="136"}
+![Enable-MTP-on-Linux](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/Enable-MTP-on-Linux-300x136.jpg)
 
-لابد وأن كل من حصل على هاتف أو جهاز لوحي بنظام اندرويد 4 قد لاحظ عدم إمكانية ابونتو من الوصول والتعامل مع الملفات الموجودة في كرت الذاكرة، فعلياً يمكنه فقط عرض الملفات دون القدرة على الحذف أو التعديل والإضافة، والسبب في ذلك هو استخدام اندرويد لنظام نقل الملفات [MTP](http://en.wikipedia.org/wiki/Media_Transfer_Protocol) الغير متوافق مع لينوكس، لذلك ولجعل أبونتو يتمكن من التعامل مع هذا البروتوكل لابد من الاستعانة ببرنامج وسيط، البرنامج الذي تعاملت معه اسمه [**Go-mtpfs**]{style="color:#FF8C00;"}، سأشرح الآن كيفية تنصيبه خطوة خطوة (طبعاً هذا الشرح موجه لأنظمة أبونتو):
+لابد وأن كل من حصل على هاتف أو جهاز لوحي بنظام اندرويد 4 قد لاحظ عدم إمكانية ابونتو من الوصول والتعامل مع الملفات الموجودة في كرت الذاكرة، فعلياً يمكنه فقط عرض الملفات دون القدرة على الحذف أو التعديل والإضافة، والسبب في ذلك هو استخدام اندرويد لنظام نقل الملفات [MTP](http://en.wikipedia.org/wiki/Media_Transfer_Protocol) الغير متوافق مع لينوكس، لذلك ولجعل أبونتو يتمكن من التعامل مع هذا البروتوكل لابد من الاستعانة ببرنامج وسيط، البرنامج الذي تعاملت معه اسمه **Go-mtpfs**، سأشرح الآن كيفية تنصيبه خطوة خطوة (طبعاً هذا الشرح موجه لأنظمة أبونتو):
 
-> ``` {.western style="margin-left: 0.1in; background-color: transparent; border: none; padding: 0in; line-height: 0.21in; text-align: left;"}
+> ```
 > sudo add-apt-repository ppa:webupd8team/unstable
 > sudo apt-get update
 > sudo apt-get install go-mtpfs
@@ -17,17 +17,17 @@ Status: published
 
 والآن بعد أن تم الانتهاء من تنصيب البرنامج سنقوم بإضافة أيقونة له على شريط يونيتي unity luncher كما يلي:
 
-> ``` {.western style="margin-left: 0.1in; background-color: transparent; border: none; padding: 0in; line-height: 0.21in; text-align: left;"}
+> ```
 > sudo apt-get install go-mtpfs-unity
 > ```
 
 والآن كل شيء أصبح جاهزاً، يجب أن يظهر على شريط يونتي أيقونة البرنامج كما في الصورة التالية:
 
-[![go-mtpfs-quicklists\_thumb](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-quicklists_thumb-300x157.png){.aligncenter .size-medium .wp-image-176 width="300" height="157"}](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-quicklists_thumb.png)
+[![go-mtpfs-quicklists\_thumb](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-quicklists_thumb-300x157.png)](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-quicklists_thumb.png)
 
 لتشغيل البرنامج قم بوصل هاتفك أو جهازك اللوحي بالكمبيوتر وبعدها قم بالنقر بالزر الأيمن على أيقونة البرنامج واختر mount android devices، ستظهر لك رسالة تخبرك بنجاح العملية وسيظهر لك مجلد جديد أو سواقة جديدة اسمها my android يوجد بداخلها محتويات ذاكرة جهازك، كما في الصورة التالية:
 
-[![go-mtpfs-nautilus](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-nautilus-300x194.png){.aligncenter .size-medium .wp-image-177 width="300" height="194"}](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-nautilus.png)
+[![go-mtpfs-nautilus](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-nautilus-300x194.png)](../../static/images/how-to-properly-mount-android-4-0-devices-in-ubuntu-using-go-mtpfs/go-mtpfs-nautilus.png)
 
 تهانينا الآن يمكنك الإضافة أو الحذف كما تريد :)
 

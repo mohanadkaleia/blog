@@ -6,46 +6,46 @@ Tags: روبوتات, نظم خبيرة, وظائف
 Slug: five-jobs-cant-be-taken-by-computer
 Status: published
 
-[![human-robot-840x420](../../static/images/five-jobs-cant-be-taken-by-computer/human-robot-840x420-e1405973292902.jpg){.aligncenter .size-full .wp-image-442 width="500" height="250"}](../../static/images/five-jobs-cant-be-taken-by-computer/human-robot-840x420-e1405973292902.jpg)مع تقدم التكنولوجيا والذكاء الصنعي ومحاكاة الآلات للسلوك البشري، بدأت الآلات تحل مكان البشر في العديد من الوظائف بل وحتى تفوقت على البشر في بعضها، فهل سيفقد بعض الناس وظائفهم وسيرمون في الشارع!!... ربما!! ولكن لو كنت واحداً من أصحاب الوظائف التالية فتأكد أنك بأمان حتى الآن ولن يتم الاستغناء عنك أو استبدالك بحاسب عديم المشاعر.  
+[![human-robot-840x420](../../static/images/five-jobs-cant-be-taken-by-computer/human-robot-840x420-e1405973292902.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/human-robot-840x420-e1405973292902.jpg)مع تقدم التكنولوجيا والذكاء الصنعي ومحاكاة الآلات للسلوك البشري، بدأت الآلات تحل مكان البشر في العديد من الوظائف بل وحتى تفوقت على البشر في بعضها، فهل سيفقد بعض الناس وظائفهم وسيرمون في الشارع!!... ربما!! ولكن لو كنت واحداً من أصحاب الوظائف التالية فتأكد أنك بأمان حتى الآن ولن يتم الاستغناء عنك أو استبدالك بحاسب عديم المشاعر.
   
  
 
-[الفن والإبداع]{style="color:#006400;"} 
+الفن والإبداع
 ---------------------------------------
 
-[![feeldesain-CREATIVE-ART-\_-BROCK-DAVIS](../../static/images/five-jobs-cant-be-taken-by-computer/feeldesain-CREATIVE-ART-_-BROCK-DAVIS.jpg){.aligncenter .size-full .wp-image-444 width="630" height="320"}](../../static/images/five-jobs-cant-be-taken-by-computer/feeldesain-CREATIVE-ART-_-BROCK-DAVIS.jpg)
+[![feeldesain-CREATIVE-ART-\_-BROCK-DAVIS](../../static/images/five-jobs-cant-be-taken-by-computer/feeldesain-CREATIVE-ART-_-BROCK-DAVIS.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/feeldesain-CREATIVE-ART-_-BROCK-DAVIS.jpg)
 
 نعم لقد ظهرت العديد من الأدوات التي تسهل عمليات **الرسم والتعديل** مثل **photoshop** و **Gimp** والتي سهلت الكثير من الأعمال على المصورين، ولكن عملية **الإبداع الفني** والتي تتأثر بالعديد من العوامل البشرية مثل **الإرتجال،** **المشاعر والأحاسيس،** **البيئة،** **المجتمع،** مجموعة من العوامل الصغيرة والكبيرة التي تدخل في خيال الفنان وذاكرته الصورية والتي تؤدي لخلق الفن، بالتأكيد حتى الآن لم يتمكن الحاسوب من إنتاج الفن وأبداعه حتى مع تطور الذكاء الصنعي وخوارزمياته فحتى الجينية والخوارزميات التطورية لن تتمكن من خلق فن يعكس المشاعر.. فالفن من الإنسان وللإنسان.
 
-[الرياضة]{style="color: rgb(0, 100, 0);"} 
+الرياضة
 -----------------------------------------
 
-[![usain-bolt-olympics-200m](../../static/images/five-jobs-cant-be-taken-by-computer/usain-bolt-olympics-200m.jpg){.aligncenter .size-full .wp-image-446 width="500" height="300"}](../../static/images/five-jobs-cant-be-taken-by-computer/usain-bolt-olympics-200m.jpg)
+[![usain-bolt-olympics-200m](../../static/images/five-jobs-cant-be-taken-by-computer/usain-bolt-olympics-200m.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/usain-bolt-olympics-200m.jpg)
 
 ملايين الناس تحب الرياضة، تحب ممارستها، متابعتها.. تحب التحدي والإثارة التي تقدمه الرياضة كما شاهدنا في مونديال 2014، ففي الرياضة تأتي المفاجئات، ماذا لو أخذت الروبوتات ساحات الملاعب، نعم سيكون من المسلي في بادئ الأمر متابعتهم لمحبي الروبوتات ولكن ماذا بعد.. الحاسوب لن يقدم لنا المفاجئات، فالفريق ساحب البرمجة والدارات الأفضل سيفوز بالتأكيد على الفريق صاحب نظام التشغيل الأقدم .. لكن ماذا لو فاجئنا مطوروا الفريق بنظام يدعم التفرعية!!! يالها من مفاجئة ساااااارة يختفي بريقها بعد ثانية!!!  
   
 الرياضة ليست فقط للتسلية.. الألعاب الرياضية ذات معاني إنسانية أكبر وأعمق .. ولن يتمكن الروبوتات من فعل الكثير..
 
-[الطب]{style="color: rgb(0, 100, 0);"} 
+الطب
 --------------------------------------
 
-[![Medical-photos-1-500x200](../../static/images/five-jobs-cant-be-taken-by-computer/Medical-photos-1-500x200.jpg){.aligncenter .size-full .wp-image-448 width="500" height="200"}](../../static/images/five-jobs-cant-be-taken-by-computer/Medical-photos-1-500x200.jpg)
+[![Medical-photos-1-500x200](../../static/images/five-jobs-cant-be-taken-by-computer/Medical-photos-1-500x200.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/Medical-photos-1-500x200.jpg)
 
 بالتأكيد ظهرت الكثير من النظم الخبيرة Expert system والتي تحاكي خبرات الأطباء ويمكن أن تعطي تشخيصاً قريباً بنسبة مقبولة جداً إلى الصحة في حال كان النظام وقاعدة المعارف غنية، ولكن هل نثق كل الثقة بهذه النظم.. المشكلة هي أن هذه النظم متأخرة دوماً بخطوة وهي أن الصحة والأمراض ليست متوقفة عند حد معين، يوجد دوماً أعراض جديدة وأمراض تتطور وتحليلها يتطلب عقلاً بشرياً واعياً لكي لا يقع خطأ قد يودي بحياة شخص ما.. وأيضاً الطب ليس فقط تشخيص المرض واقتراح الدواء .. الطب هو متابعة دائمة .. متابعة دوائية ونفسية للمريض .. لا ننسى أن العامل النفسي يشكل جزءاً كبيراً من العلاج..
 
  
 
-[التعليم]{style="color: rgb(0, 100, 0);"} 
+التعليم
 -----------------------------------------
 
-[![didactic\_L1001616\_500px](../../static/images/five-jobs-cant-be-taken-by-computer/didactic_L1001616_500px.jpg){.aligncenter .size-full .wp-image-450 width="500" height="200"}](../../static/images/five-jobs-cant-be-taken-by-computer/didactic_L1001616_500px.jpg)
+[![didactic\_L1001616\_500px](../../static/images/five-jobs-cant-be-taken-by-computer/didactic_L1001616_500px.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/didactic_L1001616_500px.jpg)
 
 ظهرت الكثير من الأدوات التي غيرت وستغير شكل التعليم في المستقبل، مثل مواقع التعليم الالكتروني عن بعد.. ولكن حقيقة المحتوى هو من إنشاء البشر، لا تزال هناك حاجة لوجود إنسان لكي يقوم بالتعليم وذلك بسبب طبيعة العلوم الإنسانية وكيفية إيصال الأفكار وتنوع القدرات الاستيعابية للطلاب كلها تتطلب مرونة لتعديل إسلوب ايصال الفكرة.
 
 القضاء والقانون 
 ---------------
 
-[![human-computer-jobs-politics-law](../../static/images/five-jobs-cant-be-taken-by-computer/human-computer-jobs-politics-law.jpg){.aligncenter .size-full .wp-image-452 width="640" height="320"}](../../static/images/five-jobs-cant-be-taken-by-computer/human-computer-jobs-politics-law.jpg)
+[![human-computer-jobs-politics-law](../../static/images/five-jobs-cant-be-taken-by-computer/human-computer-jobs-politics-law.jpg)](../../static/images/five-jobs-cant-be-taken-by-computer/human-computer-jobs-politics-law.jpg)
 
 طبعاً لإقامة العدل بين الناس فإنه يوجد قانون يتم الاستناد إليه لحل المشاكل، لو نظرنا إلى الأمر بهذه الطريقة فالموضوع سهل جداً فيمكن **لنظام خبير** **Expert system** أن يقوم بالاستناد إلى مجموعة قوانين البلد كقاعدة معارف ليقوم باتخاذ القرار.. ولكن هل الموضوع بهذه البساطة؟!!  
   

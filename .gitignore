@@ -1,5 +1,6 @@
 .DS_Store
 *.json
 venv
+.venv
 __pycache__
 *.log

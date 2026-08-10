@@ -5,9 +5,7 @@ Category: GNULinux
 Slug: include-windows-fonts-in-ubuntu
 Status: published
 
-::: {dir="rtl"}
-::: {#post_message_51323}
-**اسم التوزيعة:[ubuntu]{style="color:orange;"}[Debian]{style="color:darkred;"}**  
+**اسم التوزيعة:ubuntuDebian**
 **  
 تصنيف المشكلة:** خطوط بشعة ![](http://www.alhasebat.net/vb/images/smilies/new/nono.gif "Nono")  
 **  
@@ -23,16 +21,10 @@ Status: published
 2.  انسخه وقم بوضعه على مسار /home/username
 3.  قم بتغيير اسمه إلى :
 
-::: {style="background-color:#fed;" dir="ltr"}
     .fonts
-:::
 
 4\. من التيرمينال نفذ الأمر التالي :
 
-::: {style="background-color:#fed;" dir="ltr"}
     fc-cache -vf
-:::
 
 وهكذا نكون قد ضمّنا خطوط ويندوز..![](http://www.alhasebat.net/vb/images/smilies/055.gif ":aywa:")
-:::
-:::

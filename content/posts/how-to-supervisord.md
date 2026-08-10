@@ -74,15 +74,13 @@ Cover: ../../static/images/high-availability-with-supervisord/supervisord.png
 
 لاحظ أننا استعملنا هنا مكتبة http، وهي أحدى المكتبات الأساسية في البايثون، بغية تبسيط المثال اكثر. الآن قم بنسخ هذا الكود إلى جهازك المحلي ثم قم بتجربة تشغيله كما يلي (على فرض أننا أسمينا الملف app.py):
 
-```
-:::python
+```python
 python3 app.py
 ```
 
 من خلال المتصفح، أو حتى من خلال سطر الأوامر لو قمت باستعمال cURL، يمكننا تجربة أرسال طلب GET للسيرفر كما يلي:
 
-```
-:::python
+```python
 curl localhost:8000
 Hello world
 ```

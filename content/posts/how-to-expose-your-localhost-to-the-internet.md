@@ -70,16 +70,14 @@ To install it follow the installation guide [here](https://boringproxy.io/instal
 
 Lets start by setting up the proxy server (the one in my case on AWS). You only need to actually run the binary you downloaded, like this:
 
-```
-:::python
+```python
 ./boringproxy-linux-x86_64 server -admin-domain bp.kaleia.io 
 ```
 This is just an example, of course you will need to change it based on the domain name you have. the `bp.kaleia.io` will be used to access `boringproxy` admin page. 
 Executing the above command, should print a token to be used when authorizing the access to the admin page. It is also stored in ``boringproxy_db.json` which should be located right next to the downloaded binary.
 
 Similarly,  run boring proxy on you local machine, by doing something like this:
-```
-:::python
+```python
 ./boringproxy client \
     -server <server> -user <user> -token <token> -client-name <client-name>
 ```

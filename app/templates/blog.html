@@ -25,7 +25,7 @@
         <div class=".col-12 col-sm-12 col-md-12 col-lg-12">            
             <div class="title">
                 <a href="/{{ post.slug }}">{{post.title}}</a>  
-                <time datetime="{{ post.date }}">{{ post.date }}</time>
+                <time datetime="{{ post.date_iso }}">{{ post.date }}</time>
             </div>
             <p dir="{{post.direction}}" {{ 'style=text-align:right;' if post.direction == 'rtl' else '' }}>{{ post.summary | striptags }}</p>            
             --            
